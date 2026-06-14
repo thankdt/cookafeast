@@ -1,0 +1,1825 @@
+[
+  {
+    "id": "tpl_vu_lan_bac_chung_sinh",
+    "occasionId": "vu_lan",
+    "region": "BAC",
+    "mamType": "CHUNG_SINH",
+    "name": "Mâm cúng chúng sinh miền Bắc (Vu Lan)",
+    "description": "Mâm cúng chúng sinh (cô hồn) ngoài trời rằm tháng Bảy, thuần đồ chay/đồ ngọt: xôi/cháo trụ mâm, không dùng món mặn. Quy mô gọn 4-5 mục.",
+    "slots": [
+      {
+        "role": "TINH_BOT",
+        "required": true,
+        "anchorDishId": "xoi_chay_dau_xanh_dua"
+      },
+      {
+        "role": "TRANG_MIENG",
+        "required": true
+      },
+      {
+        "role": "DAU_VI",
+        "required": false
+      },
+      {
+        "role": "XAO",
+        "required": false
+      }
+    ]
+  },
+  {
+    "id": "tpl_gio_thuong_bac_man",
+    "occasionId": "gio_thuong",
+    "region": "BAC",
+    "mamType": "MAN",
+    "name": "Mâm mặn Bắc — Giỗ thường (giỗ thường niên)",
+    "slots": [
+      {
+        "role": "MON_CHINH",
+        "required": true,
+        "anchorDishId": "ga_luoc_nguyen_con"
+      },
+      {
+        "role": "TINH_BOT",
+        "required": true,
+        "anchorDishId": "xoi_gac"
+      },
+      {
+        "role": "CANH",
+        "required": true
+      },
+      {
+        "role": "DAU_VI",
+        "required": true
+      },
+      {
+        "role": "XAO",
+        "required": false
+      },
+      {
+        "role": "NOM_DUA",
+        "required": false
+      },
+      {
+        "role": "TRANG_MIENG",
+        "required": false
+      }
+    ],
+    "description": "Khung mâm mặn miền Bắc (GIA_DINH) cho Giỗ thường (giỗ thường niên)"
+  },
+  {
+    "id": "tpl_gio_thuong_trung_man",
+    "occasionId": "gio_thuong",
+    "region": "TRUNG",
+    "mamType": "MAN",
+    "name": "Mâm mặn Trung — Giỗ thường (giỗ thường niên)",
+    "slots": [
+      {
+        "role": "MON_CHINH",
+        "required": true,
+        "anchorDishId": "d_thit_heo_quay"
+      },
+      {
+        "role": "TINH_BOT",
+        "required": true,
+        "anchorDishId": "d_banh_chung_trung"
+      },
+      {
+        "role": "CANH",
+        "required": true
+      },
+      {
+        "role": "DAU_VI",
+        "required": true
+      },
+      {
+        "role": "XAO",
+        "required": false
+      },
+      {
+        "role": "NOM_DUA",
+        "required": false
+      },
+      {
+        "role": "TRANG_MIENG",
+        "required": false
+      }
+    ],
+    "description": "Khung mâm mặn miền Trung (GIA_DINH) cho Giỗ thường (giỗ thường niên)"
+  },
+  {
+    "id": "tpl_gio_thuong_nam_man",
+    "occasionId": "gio_thuong",
+    "region": "NAM",
+    "mamType": "MAN",
+    "name": "Mâm mặn Nam — Giỗ thường (giỗ thường niên)",
+    "slots": [
+      {
+        "role": "MON_CHINH",
+        "required": true,
+        "anchorDishId": "d_thit_kho_hot_vit"
+      },
+      {
+        "role": "TINH_BOT",
+        "required": true,
+        "anchorDishId": "banh_tet"
+      },
+      {
+        "role": "CANH",
+        "required": true
+      },
+      {
+        "role": "DAU_VI",
+        "required": true
+      },
+      {
+        "role": "XAO",
+        "required": false
+      },
+      {
+        "role": "NOM_DUA",
+        "required": false
+      },
+      {
+        "role": "TRANG_MIENG",
+        "required": false
+      }
+    ],
+    "description": "Khung mâm mặn miền Nam (GIA_DINH) cho Giỗ thường (giỗ thường niên)"
+  },
+  {
+    "id": "tpl_gio_dau_bac_man",
+    "occasionId": "gio_dau",
+    "region": "BAC",
+    "mamType": "MAN",
+    "name": "Mâm mặn Bắc — Giỗ đầu (tiểu tường)",
+    "slots": [
+      {
+        "role": "MON_CHINH",
+        "required": true,
+        "anchorDishId": "ga_luoc_nguyen_con"
+      },
+      {
+        "role": "MON_CHINH",
+        "required": false
+      },
+      {
+        "role": "TINH_BOT",
+        "required": true,
+        "anchorDishId": "xoi_gac"
+      },
+      {
+        "role": "CANH",
+        "required": true
+      },
+      {
+        "role": "CANH",
+        "required": false
+      },
+      {
+        "role": "DAU_VI",
+        "required": true
+      },
+      {
+        "role": "DAU_VI",
+        "required": false
+      },
+      {
+        "role": "XAO",
+        "required": false
+      },
+      {
+        "role": "NOM_DUA",
+        "required": false
+      },
+      {
+        "role": "TRANG_MIENG",
+        "required": false
+      }
+    ],
+    "description": "Khung mâm mặn miền Bắc (TRANG_TRONG) cho Giỗ đầu (tiểu tường)"
+  },
+  {
+    "id": "tpl_gio_dau_trung_man",
+    "occasionId": "gio_dau",
+    "region": "TRUNG",
+    "mamType": "MAN",
+    "name": "Mâm mặn Trung — Giỗ đầu (tiểu tường)",
+    "slots": [
+      {
+        "role": "MON_CHINH",
+        "required": true,
+        "anchorDishId": "d_thit_heo_quay"
+      },
+      {
+        "role": "MON_CHINH",
+        "required": false
+      },
+      {
+        "role": "TINH_BOT",
+        "required": true,
+        "anchorDishId": "d_banh_chung_trung"
+      },
+      {
+        "role": "CANH",
+        "required": true
+      },
+      {
+        "role": "CANH",
+        "required": false
+      },
+      {
+        "role": "DAU_VI",
+        "required": true
+      },
+      {
+        "role": "DAU_VI",
+        "required": false
+      },
+      {
+        "role": "XAO",
+        "required": false
+      },
+      {
+        "role": "NOM_DUA",
+        "required": false
+      },
+      {
+        "role": "TRANG_MIENG",
+        "required": false
+      }
+    ],
+    "description": "Khung mâm mặn miền Trung (TRANG_TRONG) cho Giỗ đầu (tiểu tường)"
+  },
+  {
+    "id": "tpl_gio_dau_nam_man",
+    "occasionId": "gio_dau",
+    "region": "NAM",
+    "mamType": "MAN",
+    "name": "Mâm mặn Nam — Giỗ đầu (tiểu tường)",
+    "slots": [
+      {
+        "role": "MON_CHINH",
+        "required": true,
+        "anchorDishId": "d_thit_kho_hot_vit"
+      },
+      {
+        "role": "MON_CHINH",
+        "required": false
+      },
+      {
+        "role": "TINH_BOT",
+        "required": true,
+        "anchorDishId": "banh_tet"
+      },
+      {
+        "role": "CANH",
+        "required": true
+      },
+      {
+        "role": "CANH",
+        "required": false
+      },
+      {
+        "role": "DAU_VI",
+        "required": true
+      },
+      {
+        "role": "DAU_VI",
+        "required": false
+      },
+      {
+        "role": "XAO",
+        "required": false
+      },
+      {
+        "role": "NOM_DUA",
+        "required": false
+      },
+      {
+        "role": "TRANG_MIENG",
+        "required": false
+      }
+    ],
+    "description": "Khung mâm mặn miền Nam (TRANG_TRONG) cho Giỗ đầu (tiểu tường)"
+  },
+  {
+    "id": "tpl_cung_49_ngay_bac_man",
+    "occasionId": "cung_49_ngay",
+    "region": "BAC",
+    "mamType": "MAN",
+    "name": "Mâm mặn Bắc — Cúng 49 ngày (chung thất)",
+    "slots": [
+      {
+        "role": "MON_CHINH",
+        "required": true,
+        "anchorDishId": "ga_luoc_nguyen_con"
+      },
+      {
+        "role": "TINH_BOT",
+        "required": true,
+        "anchorDishId": "xoi_gac"
+      },
+      {
+        "role": "CANH",
+        "required": true
+      },
+      {
+        "role": "DAU_VI",
+        "required": true
+      },
+      {
+        "role": "XAO",
+        "required": false
+      },
+      {
+        "role": "NOM_DUA",
+        "required": false
+      },
+      {
+        "role": "TRANG_MIENG",
+        "required": false
+      }
+    ],
+    "description": "Khung mâm mặn miền Bắc (GIA_DINH) cho Cúng 49 ngày (chung thất)"
+  },
+  {
+    "id": "tpl_cung_49_ngay_bac_chay",
+    "occasionId": "cung_49_ngay",
+    "region": "BAC",
+    "mamType": "CHAY",
+    "name": "Mâm chay Bắc — Cúng 49 ngày (chung thất)",
+    "slots": [
+      {
+        "role": "MON_CHINH",
+        "required": true
+      },
+      {
+        "role": "TINH_BOT",
+        "required": true
+      },
+      {
+        "role": "CANH",
+        "required": true
+      },
+      {
+        "role": "DAU_VI",
+        "required": true
+      },
+      {
+        "role": "XAO",
+        "required": false
+      },
+      {
+        "role": "TRANG_MIENG",
+        "required": false
+      }
+    ],
+    "description": "Khung mâm chay miền Bắc (GIA_DINH) cho Cúng 49 ngày (chung thất)"
+  },
+  {
+    "id": "tpl_cung_49_ngay_trung_man",
+    "occasionId": "cung_49_ngay",
+    "region": "TRUNG",
+    "mamType": "MAN",
+    "name": "Mâm mặn Trung — Cúng 49 ngày (chung thất)",
+    "slots": [
+      {
+        "role": "MON_CHINH",
+        "required": true,
+        "anchorDishId": "d_thit_heo_quay"
+      },
+      {
+        "role": "TINH_BOT",
+        "required": true,
+        "anchorDishId": "d_banh_chung_trung"
+      },
+      {
+        "role": "CANH",
+        "required": true
+      },
+      {
+        "role": "DAU_VI",
+        "required": true
+      },
+      {
+        "role": "XAO",
+        "required": false
+      },
+      {
+        "role": "NOM_DUA",
+        "required": false
+      },
+      {
+        "role": "TRANG_MIENG",
+        "required": false
+      }
+    ],
+    "description": "Khung mâm mặn miền Trung (GIA_DINH) cho Cúng 49 ngày (chung thất)"
+  },
+  {
+    "id": "tpl_cung_49_ngay_nam_man",
+    "occasionId": "cung_49_ngay",
+    "region": "NAM",
+    "mamType": "MAN",
+    "name": "Mâm mặn Nam — Cúng 49 ngày (chung thất)",
+    "slots": [
+      {
+        "role": "MON_CHINH",
+        "required": true,
+        "anchorDishId": "d_thit_kho_hot_vit"
+      },
+      {
+        "role": "TINH_BOT",
+        "required": true,
+        "anchorDishId": "banh_tet"
+      },
+      {
+        "role": "CANH",
+        "required": true
+      },
+      {
+        "role": "DAU_VI",
+        "required": true
+      },
+      {
+        "role": "XAO",
+        "required": false
+      },
+      {
+        "role": "NOM_DUA",
+        "required": false
+      },
+      {
+        "role": "TRANG_MIENG",
+        "required": false
+      }
+    ],
+    "description": "Khung mâm mặn miền Nam (GIA_DINH) cho Cúng 49 ngày (chung thất)"
+  },
+  {
+    "id": "tpl_cung_100_ngay_bac_man",
+    "occasionId": "cung_100_ngay",
+    "region": "BAC",
+    "mamType": "MAN",
+    "name": "Mâm mặn Bắc — Cúng 100 ngày (tốt khốc)",
+    "slots": [
+      {
+        "role": "MON_CHINH",
+        "required": true,
+        "anchorDishId": "ga_luoc_nguyen_con"
+      },
+      {
+        "role": "TINH_BOT",
+        "required": true,
+        "anchorDishId": "xoi_gac"
+      },
+      {
+        "role": "CANH",
+        "required": true
+      },
+      {
+        "role": "DAU_VI",
+        "required": true
+      },
+      {
+        "role": "XAO",
+        "required": false
+      },
+      {
+        "role": "NOM_DUA",
+        "required": false
+      },
+      {
+        "role": "TRANG_MIENG",
+        "required": false
+      }
+    ],
+    "description": "Khung mâm mặn miền Bắc (GIA_DINH) cho Cúng 100 ngày (tốt khốc)"
+  },
+  {
+    "id": "tpl_cung_100_ngay_bac_chay",
+    "occasionId": "cung_100_ngay",
+    "region": "BAC",
+    "mamType": "CHAY",
+    "name": "Mâm chay Bắc — Cúng 100 ngày (tốt khốc)",
+    "slots": [
+      {
+        "role": "MON_CHINH",
+        "required": true
+      },
+      {
+        "role": "TINH_BOT",
+        "required": true
+      },
+      {
+        "role": "CANH",
+        "required": true
+      },
+      {
+        "role": "DAU_VI",
+        "required": true
+      },
+      {
+        "role": "XAO",
+        "required": false
+      },
+      {
+        "role": "TRANG_MIENG",
+        "required": false
+      }
+    ],
+    "description": "Khung mâm chay miền Bắc (GIA_DINH) cho Cúng 100 ngày (tốt khốc)"
+  },
+  {
+    "id": "tpl_cung_100_ngay_trung_man",
+    "occasionId": "cung_100_ngay",
+    "region": "TRUNG",
+    "mamType": "MAN",
+    "name": "Mâm mặn Trung — Cúng 100 ngày (tốt khốc)",
+    "slots": [
+      {
+        "role": "MON_CHINH",
+        "required": true,
+        "anchorDishId": "d_thit_heo_quay"
+      },
+      {
+        "role": "TINH_BOT",
+        "required": true,
+        "anchorDishId": "d_banh_chung_trung"
+      },
+      {
+        "role": "CANH",
+        "required": true
+      },
+      {
+        "role": "DAU_VI",
+        "required": true
+      },
+      {
+        "role": "XAO",
+        "required": false
+      },
+      {
+        "role": "NOM_DUA",
+        "required": false
+      },
+      {
+        "role": "TRANG_MIENG",
+        "required": false
+      }
+    ],
+    "description": "Khung mâm mặn miền Trung (GIA_DINH) cho Cúng 100 ngày (tốt khốc)"
+  },
+  {
+    "id": "tpl_cung_100_ngay_nam_man",
+    "occasionId": "cung_100_ngay",
+    "region": "NAM",
+    "mamType": "MAN",
+    "name": "Mâm mặn Nam — Cúng 100 ngày (tốt khốc)",
+    "slots": [
+      {
+        "role": "MON_CHINH",
+        "required": true,
+        "anchorDishId": "d_thit_kho_hot_vit"
+      },
+      {
+        "role": "TINH_BOT",
+        "required": true,
+        "anchorDishId": "banh_tet"
+      },
+      {
+        "role": "CANH",
+        "required": true
+      },
+      {
+        "role": "DAU_VI",
+        "required": true
+      },
+      {
+        "role": "XAO",
+        "required": false
+      },
+      {
+        "role": "NOM_DUA",
+        "required": false
+      },
+      {
+        "role": "TRANG_MIENG",
+        "required": false
+      }
+    ],
+    "description": "Khung mâm mặn miền Nam (GIA_DINH) cho Cúng 100 ngày (tốt khốc)"
+  },
+  {
+    "id": "tpl_tat_nien_bac_man",
+    "occasionId": "tat_nien",
+    "region": "BAC",
+    "mamType": "MAN",
+    "name": "Mâm mặn Bắc — Tất niên (cúng tất niên cuối năm)",
+    "slots": [
+      {
+        "role": "MON_CHINH",
+        "required": true,
+        "anchorDishId": "ga_luoc_nguyen_con"
+      },
+      {
+        "role": "MON_CHINH",
+        "required": false
+      },
+      {
+        "role": "TINH_BOT",
+        "required": true,
+        "anchorDishId": "xoi_gac"
+      },
+      {
+        "role": "TINH_BOT",
+        "required": true,
+        "anchorDishId": "banh_chung"
+      },
+      {
+        "role": "CANH",
+        "required": true
+      },
+      {
+        "role": "CANH",
+        "required": false
+      },
+      {
+        "role": "DAU_VI",
+        "required": true
+      },
+      {
+        "role": "DAU_VI",
+        "required": false
+      },
+      {
+        "role": "DAU_VI",
+        "required": false
+      },
+      {
+        "role": "XAO",
+        "required": false
+      },
+      {
+        "role": "NOM_DUA",
+        "required": false
+      },
+      {
+        "role": "TRANG_MIENG",
+        "required": false
+      }
+    ],
+    "description": "Khung mâm mặn miền Bắc (TET_LON) cho Tất niên (cúng tất niên cuối năm)"
+  },
+  {
+    "id": "tpl_tat_nien_bac_chay",
+    "occasionId": "tat_nien",
+    "region": "BAC",
+    "mamType": "CHAY",
+    "name": "Mâm chay Bắc — Tất niên (cúng tất niên cuối năm)",
+    "slots": [
+      {
+        "role": "MON_CHINH",
+        "required": true
+      },
+      {
+        "role": "TINH_BOT",
+        "required": true
+      },
+      {
+        "role": "CANH",
+        "required": true
+      },
+      {
+        "role": "DAU_VI",
+        "required": true
+      },
+      {
+        "role": "XAO",
+        "required": false
+      },
+      {
+        "role": "TRANG_MIENG",
+        "required": false
+      }
+    ],
+    "description": "Khung mâm chay miền Bắc (TET_LON) cho Tất niên (cúng tất niên cuối năm)"
+  },
+  {
+    "id": "tpl_tat_nien_trung_man",
+    "occasionId": "tat_nien",
+    "region": "TRUNG",
+    "mamType": "MAN",
+    "name": "Mâm mặn Trung — Tất niên (cúng tất niên cuối năm)",
+    "slots": [
+      {
+        "role": "MON_CHINH",
+        "required": true,
+        "anchorDishId": "d_thit_heo_quay"
+      },
+      {
+        "role": "MON_CHINH",
+        "required": false
+      },
+      {
+        "role": "TINH_BOT",
+        "required": true,
+        "anchorDishId": "d_banh_chung_trung"
+      },
+      {
+        "role": "TINH_BOT",
+        "required": true,
+        "anchorDishId": "d_banh_chung_trung"
+      },
+      {
+        "role": "CANH",
+        "required": true
+      },
+      {
+        "role": "CANH",
+        "required": false
+      },
+      {
+        "role": "DAU_VI",
+        "required": true
+      },
+      {
+        "role": "DAU_VI",
+        "required": false
+      },
+      {
+        "role": "DAU_VI",
+        "required": false
+      },
+      {
+        "role": "XAO",
+        "required": false
+      },
+      {
+        "role": "NOM_DUA",
+        "required": false
+      },
+      {
+        "role": "TRANG_MIENG",
+        "required": false
+      }
+    ],
+    "description": "Khung mâm mặn miền Trung (TET_LON) cho Tất niên (cúng tất niên cuối năm)"
+  },
+  {
+    "id": "tpl_tat_nien_nam_man",
+    "occasionId": "tat_nien",
+    "region": "NAM",
+    "mamType": "MAN",
+    "name": "Mâm mặn Nam — Tất niên (cúng tất niên cuối năm)",
+    "slots": [
+      {
+        "role": "MON_CHINH",
+        "required": true,
+        "anchorDishId": "d_thit_kho_hot_vit"
+      },
+      {
+        "role": "MON_CHINH",
+        "required": false
+      },
+      {
+        "role": "TINH_BOT",
+        "required": true,
+        "anchorDishId": "banh_tet"
+      },
+      {
+        "role": "TINH_BOT",
+        "required": true,
+        "anchorDishId": "banh_tet"
+      },
+      {
+        "role": "CANH",
+        "required": true
+      },
+      {
+        "role": "CANH",
+        "required": false
+      },
+      {
+        "role": "DAU_VI",
+        "required": true
+      },
+      {
+        "role": "DAU_VI",
+        "required": false
+      },
+      {
+        "role": "DAU_VI",
+        "required": false
+      },
+      {
+        "role": "XAO",
+        "required": false
+      },
+      {
+        "role": "NOM_DUA",
+        "required": false
+      },
+      {
+        "role": "TRANG_MIENG",
+        "required": false
+      }
+    ],
+    "description": "Khung mâm mặn miền Nam (TET_LON) cho Tất niên (cúng tất niên cuối năm)"
+  },
+  {
+    "id": "tpl_giao_thua_bac_man",
+    "occasionId": "giao_thua",
+    "region": "BAC",
+    "mamType": "MAN",
+    "name": "Mâm mặn Bắc — Giao thừa (trừ tịch)",
+    "slots": [
+      {
+        "role": "MON_CHINH",
+        "required": true,
+        "anchorDishId": "ga_luoc_nguyen_con"
+      },
+      {
+        "role": "MON_CHINH",
+        "required": false
+      },
+      {
+        "role": "TINH_BOT",
+        "required": true,
+        "anchorDishId": "xoi_gac"
+      },
+      {
+        "role": "CANH",
+        "required": true
+      },
+      {
+        "role": "CANH",
+        "required": false
+      },
+      {
+        "role": "DAU_VI",
+        "required": true
+      },
+      {
+        "role": "DAU_VI",
+        "required": false
+      },
+      {
+        "role": "XAO",
+        "required": false
+      },
+      {
+        "role": "NOM_DUA",
+        "required": false
+      },
+      {
+        "role": "TRANG_MIENG",
+        "required": false
+      }
+    ],
+    "description": "Khung mâm mặn miền Bắc (TRANG_TRONG) cho Giao thừa (trừ tịch)"
+  },
+  {
+    "id": "tpl_giao_thua_bac_chay",
+    "occasionId": "giao_thua",
+    "region": "BAC",
+    "mamType": "CHAY",
+    "name": "Mâm chay Bắc — Giao thừa (trừ tịch)",
+    "slots": [
+      {
+        "role": "MON_CHINH",
+        "required": true
+      },
+      {
+        "role": "TINH_BOT",
+        "required": true
+      },
+      {
+        "role": "CANH",
+        "required": true
+      },
+      {
+        "role": "DAU_VI",
+        "required": true
+      },
+      {
+        "role": "XAO",
+        "required": false
+      },
+      {
+        "role": "TRANG_MIENG",
+        "required": false
+      }
+    ],
+    "description": "Khung mâm chay miền Bắc (TRANG_TRONG) cho Giao thừa (trừ tịch)"
+  },
+  {
+    "id": "tpl_giao_thua_trung_man",
+    "occasionId": "giao_thua",
+    "region": "TRUNG",
+    "mamType": "MAN",
+    "name": "Mâm mặn Trung — Giao thừa (trừ tịch)",
+    "slots": [
+      {
+        "role": "MON_CHINH",
+        "required": true,
+        "anchorDishId": "d_thit_heo_quay"
+      },
+      {
+        "role": "MON_CHINH",
+        "required": false
+      },
+      {
+        "role": "TINH_BOT",
+        "required": true,
+        "anchorDishId": "d_banh_chung_trung"
+      },
+      {
+        "role": "CANH",
+        "required": true
+      },
+      {
+        "role": "CANH",
+        "required": false
+      },
+      {
+        "role": "DAU_VI",
+        "required": true
+      },
+      {
+        "role": "DAU_VI",
+        "required": false
+      },
+      {
+        "role": "XAO",
+        "required": false
+      },
+      {
+        "role": "NOM_DUA",
+        "required": false
+      },
+      {
+        "role": "TRANG_MIENG",
+        "required": false
+      }
+    ],
+    "description": "Khung mâm mặn miền Trung (TRANG_TRONG) cho Giao thừa (trừ tịch)"
+  },
+  {
+    "id": "tpl_giao_thua_nam_man",
+    "occasionId": "giao_thua",
+    "region": "NAM",
+    "mamType": "MAN",
+    "name": "Mâm mặn Nam — Giao thừa (trừ tịch)",
+    "slots": [
+      {
+        "role": "MON_CHINH",
+        "required": true,
+        "anchorDishId": "d_thit_kho_hot_vit"
+      },
+      {
+        "role": "MON_CHINH",
+        "required": false
+      },
+      {
+        "role": "TINH_BOT",
+        "required": true,
+        "anchorDishId": "banh_tet"
+      },
+      {
+        "role": "CANH",
+        "required": true
+      },
+      {
+        "role": "CANH",
+        "required": false
+      },
+      {
+        "role": "DAU_VI",
+        "required": true
+      },
+      {
+        "role": "DAU_VI",
+        "required": false
+      },
+      {
+        "role": "XAO",
+        "required": false
+      },
+      {
+        "role": "NOM_DUA",
+        "required": false
+      },
+      {
+        "role": "TRANG_MIENG",
+        "required": false
+      }
+    ],
+    "description": "Khung mâm mặn miền Nam (TRANG_TRONG) cho Giao thừa (trừ tịch)"
+  },
+  {
+    "id": "tpl_mung_1_tet_bac_man",
+    "occasionId": "mung_1_tet",
+    "region": "BAC",
+    "mamType": "MAN",
+    "name": "Mâm mặn Bắc — Cúng mùng 1 Tết (Nguyên đán)",
+    "slots": [
+      {
+        "role": "MON_CHINH",
+        "required": true,
+        "anchorDishId": "ga_luoc_nguyen_con"
+      },
+      {
+        "role": "MON_CHINH",
+        "required": false
+      },
+      {
+        "role": "TINH_BOT",
+        "required": true,
+        "anchorDishId": "xoi_gac"
+      },
+      {
+        "role": "TINH_BOT",
+        "required": true,
+        "anchorDishId": "banh_chung"
+      },
+      {
+        "role": "CANH",
+        "required": true
+      },
+      {
+        "role": "CANH",
+        "required": false
+      },
+      {
+        "role": "DAU_VI",
+        "required": true
+      },
+      {
+        "role": "DAU_VI",
+        "required": false
+      },
+      {
+        "role": "DAU_VI",
+        "required": false
+      },
+      {
+        "role": "XAO",
+        "required": false
+      },
+      {
+        "role": "NOM_DUA",
+        "required": false
+      },
+      {
+        "role": "TRANG_MIENG",
+        "required": false
+      }
+    ],
+    "description": "Khung mâm mặn miền Bắc (TET_LON) cho Cúng mùng 1 Tết (Nguyên đán)"
+  },
+  {
+    "id": "tpl_mung_1_tet_bac_chay",
+    "occasionId": "mung_1_tet",
+    "region": "BAC",
+    "mamType": "CHAY",
+    "name": "Mâm chay Bắc — Cúng mùng 1 Tết (Nguyên đán)",
+    "slots": [
+      {
+        "role": "MON_CHINH",
+        "required": true
+      },
+      {
+        "role": "TINH_BOT",
+        "required": true
+      },
+      {
+        "role": "CANH",
+        "required": true
+      },
+      {
+        "role": "DAU_VI",
+        "required": true
+      },
+      {
+        "role": "XAO",
+        "required": false
+      },
+      {
+        "role": "TRANG_MIENG",
+        "required": false
+      }
+    ],
+    "description": "Khung mâm chay miền Bắc (TET_LON) cho Cúng mùng 1 Tết (Nguyên đán)"
+  },
+  {
+    "id": "tpl_mung_1_tet_trung_man",
+    "occasionId": "mung_1_tet",
+    "region": "TRUNG",
+    "mamType": "MAN",
+    "name": "Mâm mặn Trung — Cúng mùng 1 Tết (Nguyên đán)",
+    "slots": [
+      {
+        "role": "MON_CHINH",
+        "required": true,
+        "anchorDishId": "d_thit_heo_quay"
+      },
+      {
+        "role": "MON_CHINH",
+        "required": false
+      },
+      {
+        "role": "TINH_BOT",
+        "required": true,
+        "anchorDishId": "d_banh_chung_trung"
+      },
+      {
+        "role": "TINH_BOT",
+        "required": true,
+        "anchorDishId": "d_banh_chung_trung"
+      },
+      {
+        "role": "CANH",
+        "required": true
+      },
+      {
+        "role": "CANH",
+        "required": false
+      },
+      {
+        "role": "DAU_VI",
+        "required": true
+      },
+      {
+        "role": "DAU_VI",
+        "required": false
+      },
+      {
+        "role": "DAU_VI",
+        "required": false
+      },
+      {
+        "role": "XAO",
+        "required": false
+      },
+      {
+        "role": "NOM_DUA",
+        "required": false
+      },
+      {
+        "role": "TRANG_MIENG",
+        "required": false
+      }
+    ],
+    "description": "Khung mâm mặn miền Trung (TET_LON) cho Cúng mùng 1 Tết (Nguyên đán)"
+  },
+  {
+    "id": "tpl_mung_1_tet_nam_man",
+    "occasionId": "mung_1_tet",
+    "region": "NAM",
+    "mamType": "MAN",
+    "name": "Mâm mặn Nam — Cúng mùng 1 Tết (Nguyên đán)",
+    "slots": [
+      {
+        "role": "MON_CHINH",
+        "required": true,
+        "anchorDishId": "d_thit_kho_hot_vit"
+      },
+      {
+        "role": "MON_CHINH",
+        "required": false
+      },
+      {
+        "role": "TINH_BOT",
+        "required": true,
+        "anchorDishId": "banh_tet"
+      },
+      {
+        "role": "TINH_BOT",
+        "required": true,
+        "anchorDishId": "banh_tet"
+      },
+      {
+        "role": "CANH",
+        "required": true
+      },
+      {
+        "role": "CANH",
+        "required": false
+      },
+      {
+        "role": "DAU_VI",
+        "required": true
+      },
+      {
+        "role": "DAU_VI",
+        "required": false
+      },
+      {
+        "role": "DAU_VI",
+        "required": false
+      },
+      {
+        "role": "XAO",
+        "required": false
+      },
+      {
+        "role": "NOM_DUA",
+        "required": false
+      },
+      {
+        "role": "TRANG_MIENG",
+        "required": false
+      }
+    ],
+    "description": "Khung mâm mặn miền Nam (TET_LON) cho Cúng mùng 1 Tết (Nguyên đán)"
+  },
+  {
+    "id": "tpl_ong_cong_ong_tao_bac_man",
+    "occasionId": "ong_cong_ong_tao",
+    "region": "BAC",
+    "mamType": "MAN",
+    "name": "Mâm mặn Bắc — Cúng ông Công ông Táo",
+    "slots": [
+      {
+        "role": "MON_CHINH",
+        "required": true,
+        "anchorDishId": "ga_luoc_nguyen_con"
+      },
+      {
+        "role": "TINH_BOT",
+        "required": true,
+        "anchorDishId": "xoi_gac"
+      },
+      {
+        "role": "CANH",
+        "required": true
+      },
+      {
+        "role": "DAU_VI",
+        "required": true
+      },
+      {
+        "role": "XAO",
+        "required": false
+      },
+      {
+        "role": "NOM_DUA",
+        "required": false
+      },
+      {
+        "role": "TRANG_MIENG",
+        "required": false
+      }
+    ],
+    "description": "Khung mâm mặn miền Bắc (GIA_DINH) cho Cúng ông Công ông Táo"
+  },
+  {
+    "id": "tpl_ong_cong_ong_tao_bac_chay",
+    "occasionId": "ong_cong_ong_tao",
+    "region": "BAC",
+    "mamType": "CHAY",
+    "name": "Mâm chay Bắc — Cúng ông Công ông Táo",
+    "slots": [
+      {
+        "role": "MON_CHINH",
+        "required": true
+      },
+      {
+        "role": "TINH_BOT",
+        "required": true
+      },
+      {
+        "role": "CANH",
+        "required": true
+      },
+      {
+        "role": "DAU_VI",
+        "required": true
+      },
+      {
+        "role": "XAO",
+        "required": false
+      },
+      {
+        "role": "TRANG_MIENG",
+        "required": false
+      }
+    ],
+    "description": "Khung mâm chay miền Bắc (GIA_DINH) cho Cúng ông Công ông Táo"
+  },
+  {
+    "id": "tpl_ong_cong_ong_tao_trung_man",
+    "occasionId": "ong_cong_ong_tao",
+    "region": "TRUNG",
+    "mamType": "MAN",
+    "name": "Mâm mặn Trung — Cúng ông Công ông Táo",
+    "slots": [
+      {
+        "role": "MON_CHINH",
+        "required": true,
+        "anchorDishId": "d_thit_heo_quay"
+      },
+      {
+        "role": "TINH_BOT",
+        "required": true,
+        "anchorDishId": "d_banh_chung_trung"
+      },
+      {
+        "role": "CANH",
+        "required": true
+      },
+      {
+        "role": "DAU_VI",
+        "required": true
+      },
+      {
+        "role": "XAO",
+        "required": false
+      },
+      {
+        "role": "NOM_DUA",
+        "required": false
+      },
+      {
+        "role": "TRANG_MIENG",
+        "required": false
+      }
+    ],
+    "description": "Khung mâm mặn miền Trung (GIA_DINH) cho Cúng ông Công ông Táo"
+  },
+  {
+    "id": "tpl_ong_cong_ong_tao_nam_man",
+    "occasionId": "ong_cong_ong_tao",
+    "region": "NAM",
+    "mamType": "MAN",
+    "name": "Mâm mặn Nam — Cúng ông Công ông Táo",
+    "slots": [
+      {
+        "role": "MON_CHINH",
+        "required": true,
+        "anchorDishId": "d_thit_kho_hot_vit"
+      },
+      {
+        "role": "TINH_BOT",
+        "required": true,
+        "anchorDishId": "banh_tet"
+      },
+      {
+        "role": "CANH",
+        "required": true
+      },
+      {
+        "role": "DAU_VI",
+        "required": true
+      },
+      {
+        "role": "XAO",
+        "required": false
+      },
+      {
+        "role": "NOM_DUA",
+        "required": false
+      },
+      {
+        "role": "TRANG_MIENG",
+        "required": false
+      }
+    ],
+    "description": "Khung mâm mặn miền Nam (GIA_DINH) cho Cúng ông Công ông Táo"
+  },
+  {
+    "id": "tpl_ram_thang_gieng_bac_man",
+    "occasionId": "ram_thang_gieng",
+    "region": "BAC",
+    "mamType": "MAN",
+    "name": "Mâm mặn Bắc — Rằm tháng Giêng (Tết Nguyên tiêu)",
+    "slots": [
+      {
+        "role": "MON_CHINH",
+        "required": true,
+        "anchorDishId": "ga_luoc_nguyen_con"
+      },
+      {
+        "role": "TINH_BOT",
+        "required": true,
+        "anchorDishId": "xoi_gac"
+      },
+      {
+        "role": "CANH",
+        "required": true
+      },
+      {
+        "role": "DAU_VI",
+        "required": true
+      },
+      {
+        "role": "XAO",
+        "required": false
+      },
+      {
+        "role": "NOM_DUA",
+        "required": false
+      },
+      {
+        "role": "TRANG_MIENG",
+        "required": false
+      }
+    ],
+    "description": "Khung mâm mặn miền Bắc (GIA_DINH) cho Rằm tháng Giêng (Tết Nguyên tiêu)"
+  },
+  {
+    "id": "tpl_ram_thang_gieng_bac_chay",
+    "occasionId": "ram_thang_gieng",
+    "region": "BAC",
+    "mamType": "CHAY",
+    "name": "Mâm chay Bắc — Rằm tháng Giêng (Tết Nguyên tiêu)",
+    "slots": [
+      {
+        "role": "MON_CHINH",
+        "required": true
+      },
+      {
+        "role": "TINH_BOT",
+        "required": true
+      },
+      {
+        "role": "CANH",
+        "required": true
+      },
+      {
+        "role": "DAU_VI",
+        "required": true
+      },
+      {
+        "role": "XAO",
+        "required": false
+      },
+      {
+        "role": "TRANG_MIENG",
+        "required": false
+      }
+    ],
+    "description": "Khung mâm chay miền Bắc (GIA_DINH) cho Rằm tháng Giêng (Tết Nguyên tiêu)"
+  },
+  {
+    "id": "tpl_ram_thang_gieng_trung_man",
+    "occasionId": "ram_thang_gieng",
+    "region": "TRUNG",
+    "mamType": "MAN",
+    "name": "Mâm mặn Trung — Rằm tháng Giêng (Tết Nguyên tiêu)",
+    "slots": [
+      {
+        "role": "MON_CHINH",
+        "required": true,
+        "anchorDishId": "d_thit_heo_quay"
+      },
+      {
+        "role": "TINH_BOT",
+        "required": true,
+        "anchorDishId": "d_banh_chung_trung"
+      },
+      {
+        "role": "CANH",
+        "required": true
+      },
+      {
+        "role": "DAU_VI",
+        "required": true
+      },
+      {
+        "role": "XAO",
+        "required": false
+      },
+      {
+        "role": "NOM_DUA",
+        "required": false
+      },
+      {
+        "role": "TRANG_MIENG",
+        "required": false
+      }
+    ],
+    "description": "Khung mâm mặn miền Trung (GIA_DINH) cho Rằm tháng Giêng (Tết Nguyên tiêu)"
+  },
+  {
+    "id": "tpl_ram_thang_gieng_nam_man",
+    "occasionId": "ram_thang_gieng",
+    "region": "NAM",
+    "mamType": "MAN",
+    "name": "Mâm mặn Nam — Rằm tháng Giêng (Tết Nguyên tiêu)",
+    "slots": [
+      {
+        "role": "MON_CHINH",
+        "required": true,
+        "anchorDishId": "d_thit_kho_hot_vit"
+      },
+      {
+        "role": "TINH_BOT",
+        "required": true,
+        "anchorDishId": "banh_tet"
+      },
+      {
+        "role": "CANH",
+        "required": true
+      },
+      {
+        "role": "DAU_VI",
+        "required": true
+      },
+      {
+        "role": "XAO",
+        "required": false
+      },
+      {
+        "role": "NOM_DUA",
+        "required": false
+      },
+      {
+        "role": "TRANG_MIENG",
+        "required": false
+      }
+    ],
+    "description": "Khung mâm mặn miền Nam (GIA_DINH) cho Rằm tháng Giêng (Tết Nguyên tiêu)"
+  },
+  {
+    "id": "tpl_vu_lan_bac_chay",
+    "occasionId": "vu_lan",
+    "region": "BAC",
+    "mamType": "CHAY",
+    "name": "Mâm chay Bắc — Rằm tháng Bảy - Vu Lan & cúng chúng sinh",
+    "slots": [
+      {
+        "role": "MON_CHINH",
+        "required": true
+      },
+      {
+        "role": "TINH_BOT",
+        "required": true
+      },
+      {
+        "role": "CANH",
+        "required": true
+      },
+      {
+        "role": "DAU_VI",
+        "required": true
+      },
+      {
+        "role": "XAO",
+        "required": false
+      },
+      {
+        "role": "TRANG_MIENG",
+        "required": false
+      }
+    ],
+    "description": "Khung mâm chay miền Bắc (GIA_DINH) cho Rằm tháng Bảy - Vu Lan & cúng chúng sinh"
+  },
+  {
+    "id": "tpl_vu_lan_bac_man",
+    "occasionId": "vu_lan",
+    "region": "BAC",
+    "mamType": "MAN",
+    "name": "Mâm mặn Bắc — Rằm tháng Bảy - Vu Lan & cúng chúng sinh",
+    "slots": [
+      {
+        "role": "MON_CHINH",
+        "required": true,
+        "anchorDishId": "ga_luoc_nguyen_con"
+      },
+      {
+        "role": "TINH_BOT",
+        "required": true,
+        "anchorDishId": "xoi_gac"
+      },
+      {
+        "role": "CANH",
+        "required": true
+      },
+      {
+        "role": "DAU_VI",
+        "required": true
+      },
+      {
+        "role": "XAO",
+        "required": false
+      },
+      {
+        "role": "NOM_DUA",
+        "required": false
+      },
+      {
+        "role": "TRANG_MIENG",
+        "required": false
+      }
+    ],
+    "description": "Khung mâm mặn miền Bắc (GIA_DINH) cho Rằm tháng Bảy - Vu Lan & cúng chúng sinh"
+  },
+  {
+    "id": "tpl_vu_lan_trung_man",
+    "occasionId": "vu_lan",
+    "region": "TRUNG",
+    "mamType": "MAN",
+    "name": "Mâm mặn Trung — Rằm tháng Bảy - Vu Lan & cúng chúng sinh",
+    "slots": [
+      {
+        "role": "MON_CHINH",
+        "required": true,
+        "anchorDishId": "d_thit_heo_quay"
+      },
+      {
+        "role": "TINH_BOT",
+        "required": true,
+        "anchorDishId": "d_banh_chung_trung"
+      },
+      {
+        "role": "CANH",
+        "required": true
+      },
+      {
+        "role": "DAU_VI",
+        "required": true
+      },
+      {
+        "role": "XAO",
+        "required": false
+      },
+      {
+        "role": "NOM_DUA",
+        "required": false
+      },
+      {
+        "role": "TRANG_MIENG",
+        "required": false
+      }
+    ],
+    "description": "Khung mâm mặn miền Trung (GIA_DINH) cho Rằm tháng Bảy - Vu Lan & cúng chúng sinh"
+  },
+  {
+    "id": "tpl_vu_lan_nam_man",
+    "occasionId": "vu_lan",
+    "region": "NAM",
+    "mamType": "MAN",
+    "name": "Mâm mặn Nam — Rằm tháng Bảy - Vu Lan & cúng chúng sinh",
+    "slots": [
+      {
+        "role": "MON_CHINH",
+        "required": true,
+        "anchorDishId": "d_thit_kho_hot_vit"
+      },
+      {
+        "role": "TINH_BOT",
+        "required": true,
+        "anchorDishId": "banh_tet"
+      },
+      {
+        "role": "CANH",
+        "required": true
+      },
+      {
+        "role": "DAU_VI",
+        "required": true
+      },
+      {
+        "role": "XAO",
+        "required": false
+      },
+      {
+        "role": "NOM_DUA",
+        "required": false
+      },
+      {
+        "role": "TRANG_MIENG",
+        "required": false
+      }
+    ],
+    "description": "Khung mâm mặn miền Nam (GIA_DINH) cho Rằm tháng Bảy - Vu Lan & cúng chúng sinh"
+  },
+  {
+    "id": "tpl_mung_1_ram_hang_thang_bac_chay",
+    "occasionId": "mung_1_ram_hang_thang",
+    "region": "BAC",
+    "mamType": "CHAY",
+    "name": "Mâm chay Bắc — Cúng mùng 1 và ngày rằm hàng tháng",
+    "slots": [
+      {
+        "role": "MON_CHINH",
+        "required": true
+      },
+      {
+        "role": "TINH_BOT",
+        "required": true
+      },
+      {
+        "role": "CANH",
+        "required": true
+      },
+      {
+        "role": "DAU_VI",
+        "required": true
+      },
+      {
+        "role": "TRANG_MIENG",
+        "required": false
+      }
+    ],
+    "description": "Khung mâm chay miền Bắc (GON) cho Cúng mùng 1 và ngày rằm hàng tháng"
+  },
+  {
+    "id": "tpl_mung_1_ram_hang_thang_bac_man",
+    "occasionId": "mung_1_ram_hang_thang",
+    "region": "BAC",
+    "mamType": "MAN",
+    "name": "Mâm mặn Bắc — Cúng mùng 1 và ngày rằm hàng tháng",
+    "slots": [
+      {
+        "role": "MON_CHINH",
+        "required": true,
+        "anchorDishId": "ga_luoc_nguyen_con"
+      },
+      {
+        "role": "TINH_BOT",
+        "required": true,
+        "anchorDishId": "xoi_gac"
+      },
+      {
+        "role": "CANH",
+        "required": true
+      },
+      {
+        "role": "DAU_VI",
+        "required": true
+      },
+      {
+        "role": "TRANG_MIENG",
+        "required": false
+      }
+    ],
+    "description": "Khung mâm mặn miền Bắc (GON) cho Cúng mùng 1 và ngày rằm hàng tháng"
+  },
+  {
+    "id": "tpl_mung_1_ram_hang_thang_trung_man",
+    "occasionId": "mung_1_ram_hang_thang",
+    "region": "TRUNG",
+    "mamType": "MAN",
+    "name": "Mâm mặn Trung — Cúng mùng 1 và ngày rằm hàng tháng",
+    "slots": [
+      {
+        "role": "MON_CHINH",
+        "required": true,
+        "anchorDishId": "d_thit_heo_quay"
+      },
+      {
+        "role": "TINH_BOT",
+        "required": true,
+        "anchorDishId": "d_banh_chung_trung"
+      },
+      {
+        "role": "CANH",
+        "required": true
+      },
+      {
+        "role": "DAU_VI",
+        "required": true
+      },
+      {
+        "role": "TRANG_MIENG",
+        "required": false
+      }
+    ],
+    "description": "Khung mâm mặn miền Trung (GON) cho Cúng mùng 1 và ngày rằm hàng tháng"
+  },
+  {
+    "id": "tpl_mung_1_ram_hang_thang_nam_man",
+    "occasionId": "mung_1_ram_hang_thang",
+    "region": "NAM",
+    "mamType": "MAN",
+    "name": "Mâm mặn Nam — Cúng mùng 1 và ngày rằm hàng tháng",
+    "slots": [
+      {
+        "role": "MON_CHINH",
+        "required": true,
+        "anchorDishId": "d_thit_kho_hot_vit"
+      },
+      {
+        "role": "TINH_BOT",
+        "required": true,
+        "anchorDishId": "banh_tet"
+      },
+      {
+        "role": "CANH",
+        "required": true
+      },
+      {
+        "role": "DAU_VI",
+        "required": true
+      },
+      {
+        "role": "TRANG_MIENG",
+        "required": false
+      }
+    ],
+    "description": "Khung mâm mặn miền Nam (GON) cho Cúng mùng 1 và ngày rằm hàng tháng"
+  }
+]

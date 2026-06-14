@@ -1,0 +1,25 @@
+node_modules/
+dist/
+build/
+*.log
+.DS_Store
+.env
+.env.local
+
+# SQLite runtime data
+packages/server/data/*.db
+packages/server/data/*.db-shm
+packages/server/data/*.db-wal
+*.sqlite
+*.sqlite3
+
+# Vite / PWA
+packages/client/dev-dist/
+.vite/
+
+# Editor
+.vscode/
+.idea/
+
+# scratch
+.tmp/

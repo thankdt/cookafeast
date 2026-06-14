@@ -1,0 +1,24 @@
+{
+  "name": "cookafeast",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Người bạn đồng hành điềm tĩnh giúp người Việt nấu cỗ/cơm cúng cho các dịp lễ Tết, giỗ, rằm — dẫn dắt từ thực đơn, đi chợ, đến nấu kịp giờ cúng và làm lễ.",
+  "type": "module",
+  "workspaces": [
+    "packages/core",
+    "packages/server",
+    "packages/client"
+  ],
+  "scripts": {
+    "build:core": "npm run build -w @cookafeast/core",
+    "build:client": "npm run build -w @cookafeast/client",
+    "build": "npm run build:core && npm run build:client",
+    "dev": "npm run dev -w @cookafeast/server",
+    "start": "npm run build && npm run start -w @cookafeast/server",
+    "test": "npm run test -w @cookafeast/core",
+    "seed": "npm run seed -w @cookafeast/server"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
