@@ -1,0 +1,2520 @@
+[
+  {
+    "id": "ga_luoc_nguyen_con",
+    "name": "Gà luộc nguyên con",
+    "roles": [
+      "MON_CHINH"
+    ],
+    "region": [
+      "BAC"
+    ],
+    "mamType": [
+      "MAN"
+    ],
+    "difficulty": 2,
+    "mainIngredients": [
+      "ga_ta"
+    ],
+    "cookMethods": [
+      "LUOC"
+    ],
+    "makeAheadMinutes": 0,
+    "isNearServe": true,
+    "equipment": [
+      "BEP"
+    ],
+    "tags": [
+      "ga",
+      "luoc",
+      "co",
+      "tet",
+      "gio",
+      "mon_neo",
+      "an_nong",
+      "cung"
+    ],
+    "recipeId": "r_ga_luoc_nguyen_con",
+    "source": "SEED",
+    "popularity": 0.98
+  },
+  {
+    "id": "thit_kho_tau_trung",
+    "name": "Thịt kho tàu trứng",
+    "roles": [
+      "MON_CHINH"
+    ],
+    "region": [
+      "BAC"
+    ],
+    "mamType": [
+      "MAN"
+    ],
+    "difficulty": 2,
+    "mainIngredients": [
+      "thit_ba_chi",
+      "trung_vit"
+    ],
+    "cookMethods": [
+      "KHO"
+    ],
+    "makeAheadMinutes": 1440,
+    "isNearServe": false,
+    "equipment": [
+      "BEP"
+    ],
+    "tags": [
+      "thit_ba_chi",
+      "kho",
+      "trung",
+      "nuoc_hang",
+      "an_com",
+      "co",
+      "tet"
+    ],
+    "recipeId": "r_thit_kho_tau_trung",
+    "source": "SEED",
+    "popularity": 0.9
+  },
+  {
+    "id": "thit_dong",
+    "name": "Thịt đông",
+    "roles": [
+      "MON_CHINH",
+      "DAU_VI"
+    ],
+    "region": [
+      "BAC"
+    ],
+    "mamType": [
+      "MAN"
+    ],
+    "difficulty": 2,
+    "mainIngredients": [
+      "thit_ba_chi",
+      "bi_lon",
+      "moc_nhi"
+    ],
+    "cookMethods": [
+      "NINH_HAM"
+    ],
+    "makeAheadMinutes": 2880,
+    "isNearServe": false,
+    "equipment": [
+      "BEP"
+    ],
+    "tags": [
+      "thit_dong",
+      "ham",
+      "moc_nhi",
+      "nam_huong",
+      "mon_lanh",
+      "tet",
+      "mien_bac",
+      "lam_truoc"
+    ],
+    "recipeId": "r_thit_dong",
+    "source": "SEED",
+    "popularity": 0.85
+  },
+  {
+    "id": "chan_gio_ham",
+    "name": "Chân giò hầm măng",
+    "roles": [
+      "MON_CHINH"
+    ],
+    "region": [
+      "BAC"
+    ],
+    "mamType": [
+      "MAN"
+    ],
+    "difficulty": 2,
+    "mainIngredients": [
+      "chan_gio",
+      "mang_kho"
+    ],
+    "cookMethods": [
+      "NINH_HAM"
+    ],
+    "makeAheadMinutes": 120,
+    "isNearServe": true,
+    "equipment": [
+      "NOI_NINH",
+      "BEP"
+    ],
+    "tags": [
+      "chan_gio",
+      "ham",
+      "mang_kho",
+      "nam_huong",
+      "an_nong",
+      "co",
+      "gio"
+    ],
+    "recipeId": "r_chan_gio_ham",
+    "source": "SEED",
+    "popularity": 0.82
+  },
+  {
+    "id": "ca_kho_rieng",
+    "name": "Cá trắm kho riềng",
+    "roles": [
+      "MON_CHINH"
+    ],
+    "region": [
+      "BAC"
+    ],
+    "mamType": [
+      "MAN"
+    ],
+    "difficulty": 2,
+    "mainIngredients": [
+      "ca_tram",
+      "rieng"
+    ],
+    "cookMethods": [
+      "KHO",
+      "CHIEN"
+    ],
+    "makeAheadMinutes": 720,
+    "isNearServe": false,
+    "equipment": [
+      "BEP",
+      "CHAO_CHIEN"
+    ],
+    "tags": [
+      "ca_tram",
+      "kho",
+      "rieng",
+      "nuoc_hang",
+      "an_com",
+      "dam_da",
+      "mien_bac"
+    ],
+    "recipeId": "r_ca_kho_rieng",
+    "source": "SEED",
+    "popularity": 0.8
+  },
+  {
+    "id": "su_hao_ca_rot_xao",
+    "name": "Su hào cà rốt xào",
+    "roles": [
+      "XAO"
+    ],
+    "region": [
+      "BAC"
+    ],
+    "mamType": [
+      "MAN"
+    ],
+    "difficulty": 1,
+    "mainIngredients": [
+      "su_hao",
+      "ca_rot"
+    ],
+    "cookMethods": [
+      "XAO"
+    ],
+    "makeAheadMinutes": 0,
+    "isNearServe": true,
+    "equipment": [
+      "BEP"
+    ],
+    "tags": [
+      "xao",
+      "rau_cu",
+      "mon_xao",
+      "binh_dan",
+      "an_nong"
+    ],
+    "recipeId": "r_su_hao_ca_rot_xao",
+    "source": "SEED",
+    "popularity": 0.75
+  },
+  {
+    "id": "mien_xao_long_ga",
+    "name": "Miến xào lòng gà",
+    "roles": [
+      "XAO"
+    ],
+    "region": [
+      "BAC"
+    ],
+    "mamType": [
+      "MAN"
+    ],
+    "difficulty": 2,
+    "mainIngredients": [
+      "mien_dong",
+      "long_ga"
+    ],
+    "cookMethods": [
+      "XAO"
+    ],
+    "makeAheadMinutes": 0,
+    "isNearServe": true,
+    "equipment": [
+      "BEP"
+    ],
+    "tags": [
+      "xao",
+      "mien",
+      "long_ga",
+      "co_bac",
+      "an_nong"
+    ],
+    "recipeId": "r_mien_xao_long_ga",
+    "source": "SEED",
+    "popularity": 0.7
+  },
+  {
+    "id": "rau_su_su_luoc",
+    "name": "Su su rau cải luộc",
+    "roles": [
+      "XAO"
+    ],
+    "region": [
+      "BAC"
+    ],
+    "mamType": [
+      "MAN"
+    ],
+    "difficulty": 1,
+    "mainIngredients": [
+      "su_su",
+      "rau_cai_ngot"
+    ],
+    "cookMethods": [
+      "LUOC"
+    ],
+    "makeAheadMinutes": 0,
+    "isNearServe": true,
+    "equipment": [
+      "BEP"
+    ],
+    "tags": [
+      "luoc",
+      "rau",
+      "thanh_dam",
+      "an_nong"
+    ],
+    "recipeId": "r_rau_su_su_luoc",
+    "source": "SEED",
+    "popularity": 0.6
+  },
+  {
+    "id": "nam_xao",
+    "name": "Nấm xào thập cẩm",
+    "roles": [
+      "XAO"
+    ],
+    "region": [
+      "BAC"
+    ],
+    "mamType": [
+      "MAN",
+      "CHAY"
+    ],
+    "difficulty": 2,
+    "mainIngredients": [
+      "nam_dui_ga",
+      "nam_kim_cham",
+      "nam_rom"
+    ],
+    "cookMethods": [
+      "XAO"
+    ],
+    "makeAheadMinutes": 0,
+    "isNearServe": true,
+    "equipment": [
+      "BEP"
+    ],
+    "tags": [
+      "xao",
+      "nam",
+      "chay_duoc",
+      "an_nong",
+      "thom"
+    ],
+    "recipeId": "r_nam_xao",
+    "source": "SEED",
+    "popularity": 0.65
+  },
+  {
+    "id": "canh_mang_mong_gio",
+    "name": "Canh măng móng giò",
+    "roles": [
+      "CANH"
+    ],
+    "region": [
+      "BAC"
+    ],
+    "mamType": [
+      "MAN"
+    ],
+    "difficulty": 2,
+    "mainIngredients": [
+      "mang_kho",
+      "chan_gio"
+    ],
+    "cookMethods": [
+      "NINH_HAM"
+    ],
+    "makeAheadMinutes": 1440,
+    "isNearServe": false,
+    "equipment": [
+      "BEP",
+      "NOI_NINH"
+    ],
+    "tags": [
+      "tet",
+      "canh",
+      "mien-bac",
+      "co-truyen",
+      "mang"
+    ],
+    "recipeId": "r_canh_mang_mong_gio",
+    "source": "SEED",
+    "popularity": 0.92
+  },
+  {
+    "id": "canh_bong_tha",
+    "name": "Canh bóng thả",
+    "roles": [
+      "CANH"
+    ],
+    "region": [
+      "BAC"
+    ],
+    "mamType": [
+      "MAN"
+    ],
+    "difficulty": 3,
+    "mainIngredients": [
+      "bong_bi",
+      "gio_song"
+    ],
+    "cookMethods": [
+      "NINH_HAM",
+      "LUOC"
+    ],
+    "makeAheadMinutes": 720,
+    "isNearServe": true,
+    "equipment": [
+      "BEP",
+      "NOI_NINH"
+    ],
+    "tags": [
+      "tet",
+      "canh",
+      "mon-bat",
+      "mien-bac",
+      "co-thuong-hang",
+      "bong-bi"
+    ],
+    "recipeId": "r_canh_bong_tha",
+    "source": "SEED",
+    "popularity": 0.7
+  },
+  {
+    "id": "mien_nau_long_ga",
+    "name": "Miến nấu lòng gà",
+    "roles": [
+      "CANH"
+    ],
+    "region": [
+      "BAC"
+    ],
+    "mamType": [
+      "MAN"
+    ],
+    "difficulty": 2,
+    "mainIngredients": [
+      "mien_dong",
+      "long_ga"
+    ],
+    "cookMethods": [
+      "XAO",
+      "NINH_HAM"
+    ],
+    "makeAheadMinutes": 240,
+    "isNearServe": true,
+    "equipment": [
+      "BEP",
+      "CHAO_CHIEN"
+    ],
+    "tags": [
+      "tet",
+      "gio",
+      "canh",
+      "mien",
+      "mien-bac",
+      "long-ga"
+    ],
+    "recipeId": "r_mien_nau_long_ga",
+    "source": "SEED",
+    "popularity": 0.8
+  },
+  {
+    "id": "canh_moc_nam",
+    "name": "Canh mọc nấm",
+    "roles": [
+      "CANH"
+    ],
+    "region": [
+      "BAC"
+    ],
+    "mamType": [
+      "MAN"
+    ],
+    "difficulty": 2,
+    "mainIngredients": [
+      "gio_song",
+      "nam_huong"
+    ],
+    "cookMethods": [
+      "NINH_HAM",
+      "LUOC"
+    ],
+    "makeAheadMinutes": 180,
+    "isNearServe": true,
+    "equipment": [
+      "BEP",
+      "NOI_NINH"
+    ],
+    "tags": [
+      "tet",
+      "gio",
+      "canh",
+      "moc",
+      "nam",
+      "mien-bac"
+    ],
+    "recipeId": "r_canh_moc_nam",
+    "source": "SEED",
+    "popularity": 0.85
+  },
+  {
+    "id": "xoi_gac",
+    "name": "Xôi gấc",
+    "roles": [
+      "TINH_BOT"
+    ],
+    "region": [
+      "BAC"
+    ],
+    "mamType": [
+      "MAN"
+    ],
+    "difficulty": 2,
+    "mainIngredients": [
+      "gao_nep",
+      "qua_gac"
+    ],
+    "cookMethods": [
+      "DO_NAU",
+      "HAP"
+    ],
+    "makeAheadMinutes": 60,
+    "isNearServe": false,
+    "equipment": [
+      "HAP",
+      "BEP"
+    ],
+    "tags": [
+      "xoi",
+      "do",
+      "mau-do",
+      "may-man",
+      "tet",
+      "gio",
+      "co-truyen"
+    ],
+    "recipeId": "r_xoi_gac",
+    "source": "SEED",
+    "popularity": 0.95
+  },
+  {
+    "id": "xoi_do_xanh",
+    "name": "Xôi đỗ xanh",
+    "roles": [
+      "TINH_BOT"
+    ],
+    "region": [
+      "BAC"
+    ],
+    "mamType": [
+      "MAN"
+    ],
+    "difficulty": 1,
+    "mainIngredients": [
+      "gao_nep",
+      "do_xanh_cavo"
+    ],
+    "cookMethods": [
+      "DO_NAU",
+      "HAP"
+    ],
+    "makeAheadMinutes": 60,
+    "isNearServe": false,
+    "equipment": [
+      "HAP",
+      "BEP"
+    ],
+    "tags": [
+      "xoi",
+      "do",
+      "do-xanh",
+      "gio",
+      "ram",
+      "co-truyen"
+    ],
+    "recipeId": "r_xoi_do_xanh",
+    "source": "SEED",
+    "popularity": 0.9
+  },
+  {
+    "id": "xoi_vo",
+    "name": "Xôi vò",
+    "roles": [
+      "TINH_BOT"
+    ],
+    "region": [
+      "BAC"
+    ],
+    "mamType": [
+      "MAN"
+    ],
+    "difficulty": 3,
+    "mainIngredients": [
+      "gao_nep",
+      "do_xanh_cavo"
+    ],
+    "cookMethods": [
+      "DO_NAU",
+      "HAP"
+    ],
+    "makeAheadMinutes": 90,
+    "isNearServe": false,
+    "equipment": [
+      "HAP",
+      "BEP"
+    ],
+    "tags": [
+      "xoi",
+      "xoi-vo",
+      "do-xanh",
+      "tribng",
+      "gio",
+      "co-truyen"
+    ],
+    "recipeId": "r_xoi_vo",
+    "source": "SEED",
+    "popularity": 0.78
+  },
+  {
+    "id": "banh_chung",
+    "name": "Bánh chưng",
+    "roles": [
+      "TINH_BOT"
+    ],
+    "region": [
+      "BAC"
+    ],
+    "mamType": [
+      "MAN"
+    ],
+    "difficulty": 3,
+    "mainIngredients": [
+      "gao_nep",
+      "do_xanh_cavo",
+      "thit_ba_chi",
+      "la_dong"
+    ],
+    "cookMethods": [
+      "NINH_HAM",
+      "LUOC"
+    ],
+    "makeAheadMinutes": 4320,
+    "isNearServe": false,
+    "equipment": [
+      "NOI_NINH",
+      "BEP"
+    ],
+    "tags": [
+      "banh-chung",
+      "tet",
+      "vuong",
+      "la-dong",
+      "co-truyen",
+      "lam-truoc"
+    ],
+    "recipeId": "r_banh_chung",
+    "source": "SEED",
+    "popularity": 0.98
+  },
+  {
+    "id": "gio_lua",
+    "name": "Giò lụa (chả lụa)",
+    "roles": [
+      "DAU_VI"
+    ],
+    "region": [
+      "BAC"
+    ],
+    "mamType": [
+      "MAN"
+    ],
+    "difficulty": 2,
+    "mainIngredients": [
+      "thit_mong_gio"
+    ],
+    "cookMethods": [
+      "LUOC",
+      "HAP"
+    ],
+    "makeAheadMinutes": 2880,
+    "isNearServe": false,
+    "equipment": [
+      "HAP",
+      "BEP"
+    ],
+    "tags": [
+      "gio",
+      "khai_vi",
+      "co_truyen",
+      "lam_truoc",
+      "thai_bay"
+    ],
+    "recipeId": "r_gio_lua",
+    "source": "SEED",
+    "popularity": 0.9
+  },
+  {
+    "id": "gio_xao",
+    "name": "Giò xào (giò thủ)",
+    "roles": [
+      "DAU_VI"
+    ],
+    "region": [
+      "BAC"
+    ],
+    "mamType": [
+      "MAN"
+    ],
+    "difficulty": 2,
+    "mainIngredients": [
+      "thit_ba_chi",
+      "bi_lon",
+      "moc_nhi"
+    ],
+    "cookMethods": [
+      "XAO"
+    ],
+    "makeAheadMinutes": 2880,
+    "isNearServe": false,
+    "equipment": [
+      "BEP",
+      "CHAO_CHIEN"
+    ],
+    "tags": [
+      "gio_thu",
+      "khai_vi",
+      "co_truyen",
+      "lam_truoc",
+      "nen_ep",
+      "giòn"
+    ],
+    "recipeId": "r_gio_xao",
+    "source": "SEED",
+    "popularity": 0.85
+  },
+  {
+    "id": "nem_ran",
+    "name": "Nem rán (chả nem Hà Nội)",
+    "roles": [
+      "DAU_VI"
+    ],
+    "region": [
+      "BAC"
+    ],
+    "mamType": [
+      "MAN"
+    ],
+    "difficulty": 3,
+    "mainIngredients": [
+      "thit_xay",
+      "banh_da_nem",
+      "moc_nhi"
+    ],
+    "cookMethods": [
+      "CHIEN"
+    ],
+    "makeAheadMinutes": 240,
+    "isNearServe": true,
+    "equipment": [
+      "CHAO_CHIEN",
+      "BEP"
+    ],
+    "tags": [
+      "nem",
+      "khai_vi",
+      "ran_gion",
+      "an_nong",
+      "co_truyen"
+    ],
+    "recipeId": "r_nem_ran",
+    "source": "SEED",
+    "popularity": 0.95
+  },
+  {
+    "id": "cha_que",
+    "name": "Chả quế",
+    "roles": [
+      "DAU_VI"
+    ],
+    "region": [
+      "BAC"
+    ],
+    "mamType": [
+      "MAN"
+    ],
+    "difficulty": 2,
+    "mainIngredients": [
+      "gio_song"
+    ],
+    "cookMethods": [
+      "NUONG",
+      "HAP"
+    ],
+    "makeAheadMinutes": 1440,
+    "isNearServe": false,
+    "equipment": [
+      "LO",
+      "HAP"
+    ],
+    "tags": [
+      "cha",
+      "khai_vi",
+      "thom_que",
+      "lam_truoc",
+      "thai_bay"
+    ],
+    "recipeId": "r_cha_que",
+    "source": "SEED",
+    "popularity": 0.75
+  },
+  {
+    "id": "nom_su_hao",
+    "name": "Nộm su hào cà rốt",
+    "roles": [
+      "NOM_DUA"
+    ],
+    "region": [
+      "BAC"
+    ],
+    "mamType": [
+      "MAN"
+    ],
+    "difficulty": 1,
+    "mainIngredients": [
+      "su_hao",
+      "ca_rot",
+      "lac_nhan"
+    ],
+    "cookMethods": [
+      "TRON_SONG"
+    ],
+    "makeAheadMinutes": 120,
+    "isNearServe": false,
+    "equipment": [],
+    "tags": [
+      "nom",
+      "goi",
+      "khai_vi",
+      "tuoi_mat",
+      "chong_ngan",
+      "thai_bay"
+    ],
+    "recipeId": "r_nom_su_hao",
+    "source": "SEED",
+    "popularity": 0.8
+  },
+  {
+    "id": "dua_hanh",
+    "name": "Dưa hành muối",
+    "roles": [
+      "NOM_DUA"
+    ],
+    "region": [
+      "BAC"
+    ],
+    "mamType": [
+      "MAN"
+    ],
+    "difficulty": 1,
+    "mainIngredients": [
+      "hanh_muoi_dua"
+    ],
+    "cookMethods": [
+      "TRON_SONG"
+    ],
+    "makeAheadMinutes": 14400,
+    "isNearServe": false,
+    "equipment": [],
+    "tags": [
+      "dua_hanh",
+      "muoi_chua",
+      "tet",
+      "lam_truoc_nhieu_ngay",
+      "chong_ngan"
+    ],
+    "recipeId": "r_dua_hanh",
+    "source": "SEED",
+    "popularity": 0.9
+  },
+  {
+    "id": "nem_chay",
+    "name": "Nem chay rán",
+    "roles": [
+      "DAU_VI"
+    ],
+    "region": [
+      "BAC"
+    ],
+    "mamType": [
+      "CHAY"
+    ],
+    "difficulty": 2,
+    "mainIngredients": [
+      "banh_da_nem",
+      "moc_nhi",
+      "nam_huong",
+      "dau_phu"
+    ],
+    "cookMethods": [
+      "CHIEN"
+    ],
+    "makeAheadMinutes": 60,
+    "isNearServe": true,
+    "equipment": [
+      "CHAO_CHIEN",
+      "BEP"
+    ],
+    "tags": [
+      "chay",
+      "vu_lan",
+      "ram",
+      "khai_vi",
+      "ran_gion"
+    ],
+    "recipeId": "r_nem_chay",
+    "source": "SEED",
+    "popularity": 0.8
+  },
+  {
+    "id": "dau_phu_sot_nam",
+    "name": "Đậu phụ sốt nấm",
+    "roles": [
+      "MON_CHINH",
+      "XAO"
+    ],
+    "region": [
+      "BAC"
+    ],
+    "mamType": [
+      "CHAY"
+    ],
+    "difficulty": 1,
+    "mainIngredients": [
+      "dau_phu",
+      "nam_huong",
+      "nam_rom",
+      "ca_chua"
+    ],
+    "cookMethods": [
+      "CHIEN",
+      "XAO"
+    ],
+    "makeAheadMinutes": 20,
+    "isNearServe": true,
+    "equipment": [
+      "CHAO_CHIEN",
+      "BEP"
+    ],
+    "tags": [
+      "chay",
+      "vu_lan",
+      "ram",
+      "dau_phu",
+      "nam"
+    ],
+    "recipeId": "r_dau_phu_sot_nam",
+    "source": "SEED",
+    "popularity": 0.75
+  },
+  {
+    "id": "canh_nam_chay",
+    "name": "Canh nấm chay thập cẩm",
+    "roles": [
+      "CANH"
+    ],
+    "region": [
+      "BAC"
+    ],
+    "mamType": [
+      "CHAY"
+    ],
+    "difficulty": 1,
+    "mainIngredients": [
+      "nam_huong",
+      "nam_rom",
+      "nam_kim_cham",
+      "nam_dui_ga"
+    ],
+    "cookMethods": [
+      "NINH_HAM",
+      "DO_NAU"
+    ],
+    "makeAheadMinutes": 30,
+    "isNearServe": true,
+    "equipment": [
+      "BEP"
+    ],
+    "tags": [
+      "chay",
+      "vu_lan",
+      "ram",
+      "canh",
+      "nam"
+    ],
+    "recipeId": "r_canh_nam_chay",
+    "source": "SEED",
+    "popularity": 0.7
+  },
+  {
+    "id": "xoi_chay_dau_xanh_dua",
+    "name": "Xôi đậu xanh dừa (chay)",
+    "roles": [
+      "TINH_BOT"
+    ],
+    "region": [
+      "BAC"
+    ],
+    "mamType": [
+      "CHAY"
+    ],
+    "difficulty": 2,
+    "mainIngredients": [
+      "gao_nep",
+      "do_xanh_cavo",
+      "dua_nao"
+    ],
+    "cookMethods": [
+      "HAP",
+      "DO_NAU"
+    ],
+    "makeAheadMinutes": 45,
+    "isNearServe": false,
+    "equipment": [
+      "HAP",
+      "BEP"
+    ],
+    "tags": [
+      "chay",
+      "vu_lan",
+      "ram",
+      "xoi",
+      "do_xanh"
+    ],
+    "recipeId": "r_xoi_chay_dau_xanh_dua",
+    "source": "SEED",
+    "popularity": 0.78
+  },
+  {
+    "id": "rau_cu_luoc_chay",
+    "name": "Rau củ luộc thập cẩm (chay)",
+    "roles": [
+      "XAO"
+    ],
+    "region": [
+      "BAC"
+    ],
+    "mamType": [
+      "CHAY"
+    ],
+    "difficulty": 1,
+    "mainIngredients": [
+      "sup_lo",
+      "ca_rot",
+      "su_su",
+      "dau_ha_lan"
+    ],
+    "cookMethods": [
+      "LUOC"
+    ],
+    "makeAheadMinutes": 15,
+    "isNearServe": true,
+    "equipment": [
+      "BEP"
+    ],
+    "tags": [
+      "chay",
+      "vu_lan",
+      "ram",
+      "rau_luoc",
+      "thanh_dam"
+    ],
+    "recipeId": "r_rau_cu_luoc_chay",
+    "source": "SEED",
+    "popularity": 0.65
+  },
+  {
+    "id": "che_kho",
+    "name": "Chè kho đậu xanh",
+    "roles": [
+      "TRANG_MIENG"
+    ],
+    "region": [
+      "BAC"
+    ],
+    "mamType": [
+      "MAN",
+      "CHAY"
+    ],
+    "difficulty": 2,
+    "mainIngredients": [
+      "do_xanh_cavo",
+      "duong",
+      "vung_trang"
+    ],
+    "cookMethods": [
+      "DO_NAU"
+    ],
+    "makeAheadMinutes": 1440,
+    "isNearServe": false,
+    "equipment": [
+      "BEP"
+    ],
+    "tags": [
+      "trang_mieng",
+      "tet",
+      "ram",
+      "che",
+      "do_xanh",
+      "lam_truoc"
+    ],
+    "recipeId": "r_che_kho",
+    "source": "SEED",
+    "popularity": 0.72
+  },
+  {
+    "id": "che_con_ong",
+    "name": "Chè con ong",
+    "roles": [
+      "TRANG_MIENG"
+    ],
+    "region": [
+      "BAC"
+    ],
+    "mamType": [
+      "MAN",
+      "CHAY"
+    ],
+    "difficulty": 2,
+    "mainIngredients": [
+      "gao_nep",
+      "mat_mia",
+      "gung"
+    ],
+    "cookMethods": [
+      "HAP",
+      "DO_NAU"
+    ],
+    "makeAheadMinutes": 720,
+    "isNearServe": false,
+    "equipment": [
+      "HAP",
+      "BEP"
+    ],
+    "tags": [
+      "trang_mieng",
+      "tet",
+      "ram",
+      "che",
+      "nep",
+      "mat_mia"
+    ],
+    "recipeId": "r_che_con_ong",
+    "source": "SEED",
+    "popularity": 0.6
+  },
+  {
+    "id": "mam_ngu_qua",
+    "name": "Mâm ngũ quả",
+    "roles": [
+      "TRANG_MIENG"
+    ],
+    "region": [
+      "BAC"
+    ],
+    "mamType": [
+      "MAN",
+      "CHAY"
+    ],
+    "difficulty": 1,
+    "mainIngredients": [
+      "chuoi_xanh",
+      "buoi_tho",
+      "phat_thu",
+      "cam_canh"
+    ],
+    "cookMethods": [
+      "TRON_SONG"
+    ],
+    "makeAheadMinutes": 360,
+    "isNearServe": false,
+    "equipment": [],
+    "tags": [
+      "trang_mieng",
+      "tho",
+      "tet",
+      "ram",
+      "ngu_qua",
+      "trang_tri"
+    ],
+    "recipeId": "r_mam_ngu_qua",
+    "source": "SEED",
+    "popularity": 0.85
+  },
+  {
+    "id": "d_ga_bop_rau_ram",
+    "name": "Gà bóp rau răm",
+    "roles": [
+      "NOM_DUA",
+      "MON_CHINH"
+    ],
+    "region": [
+      "TRUNG"
+    ],
+    "mamType": [
+      "MAN"
+    ],
+    "difficulty": 2,
+    "mainIngredients": [
+      "Gà ta xé sợi",
+      "Rau răm",
+      "Hành lá",
+      "Tỏi"
+    ],
+    "cookMethods": [
+      "TRON_SONG"
+    ],
+    "makeAheadMinutes": 30,
+    "isNearServe": true,
+    "equipment": [
+      "CHAO_CHIEN"
+    ],
+    "tags": [
+      "cúng bàn thờ",
+      "nhẹ nhàng",
+      "rau sống",
+      "gà"
+    ],
+    "recipeId": "r_d_ga_bop_rau_ram",
+    "source": "SEED",
+    "popularity": 0.9
+  },
+  {
+    "id": "d_thit_heo_quay",
+    "name": "Thịt heo quay/heo luộc tôm chua",
+    "roles": [
+      "MON_CHINH"
+    ],
+    "region": [
+      "TRUNG"
+    ],
+    "mamType": [
+      "MAN"
+    ],
+    "difficulty": 2,
+    "mainIngredients": [
+      "Thịt ba chỉ",
+      "Tôm khô",
+      "Giấm gạo",
+      "Hành khô"
+    ],
+    "cookMethods": [
+      "LUOC",
+      "NUONG"
+    ],
+    "makeAheadMinutes": 120,
+    "isNearServe": false,
+    "equipment": [
+      "NOI_COM",
+      "LO"
+    ],
+    "tags": [
+      "cúng giỗ",
+      "thịt mềm",
+      "vàng ươm",
+      "truyền thống"
+    ],
+    "recipeId": "r_d_thit_heo_quay",
+    "source": "SEED",
+    "popularity": 0.95
+  },
+  {
+    "id": "d_thit_bo_kho",
+    "name": "Thịt bò kho Huế",
+    "roles": [
+      "MON_CHINH"
+    ],
+    "region": [
+      "TRUNG"
+    ],
+    "mamType": [
+      "MAN"
+    ],
+    "difficulty": 2,
+    "mainIngredients": [
+      "Thịt nạc vai",
+      "Hành khô",
+      "Tỏi",
+      "Bột quế"
+    ],
+    "cookMethods": [
+      "KHO"
+    ],
+    "makeAheadMinutes": 150,
+    "isNearServe": false,
+    "equipment": [
+      "NOI_NINH"
+    ],
+    "tags": [
+      "cúng bàn thờ",
+      "thơm lừng",
+      "hương quế",
+      "để được 1 tuần"
+    ],
+    "recipeId": "r_d_thit_bo_kho",
+    "source": "SEED",
+    "popularity": 0.92
+  },
+  {
+    "id": "d_ca_kho_nuoc_dung",
+    "name": "Cá kho nước dùng",
+    "roles": [
+      "MON_CHINH",
+      "CANH"
+    ],
+    "region": [
+      "TRUNG"
+    ],
+    "mamType": [
+      "MAN"
+    ],
+    "difficulty": 2,
+    "mainIngredients": [
+      "Cá quả",
+      "Tôm khô",
+      "Hành khô",
+      "Tỏi"
+    ],
+    "cookMethods": [
+      "KHO"
+    ],
+    "makeAheadMinutes": 90,
+    "isNearServe": false,
+    "equipment": [
+      "NOI_NINH"
+    ],
+    "tags": [
+      "cá loài cơm",
+      "nước dùng vàng",
+      "cúng giỗ",
+      "thơm dây"
+    ],
+    "recipeId": "r_d_ca_kho_nuoc_dung",
+    "source": "SEED",
+    "popularity": 0.88
+  },
+  {
+    "id": "d_tom_rim",
+    "name": "Tôm rim",
+    "roles": [
+      "MON_CHINH"
+    ],
+    "region": [
+      "TRUNG"
+    ],
+    "mamType": [
+      "MAN"
+    ],
+    "difficulty": 2,
+    "mainIngredients": [
+      "Tôm sú",
+      "Mật mía",
+      "Hành khô",
+      "Tỏi"
+    ],
+    "cookMethods": [
+      "XAO",
+      "KHO"
+    ],
+    "makeAheadMinutes": 45,
+    "isNearServe": false,
+    "equipment": [
+      "CHAO_CHIEN"
+    ],
+    "tags": [
+      "tôm tươi",
+      "nước caramel",
+      "đỏ bóng",
+      "cúng mâm"
+    ],
+    "recipeId": "r_d_tom_rim",
+    "source": "SEED",
+    "popularity": 0.85
+  },
+  {
+    "id": "d_canh_ham_vit",
+    "name": "Canh hầm vịt/bún bò Huế",
+    "roles": [
+      "CANH"
+    ],
+    "region": [
+      "TRUNG"
+    ],
+    "mamType": [
+      "MAN"
+    ],
+    "difficulty": 3,
+    "mainIngredients": [
+      "Thịt ba chỉ",
+      "Tôm khô",
+      "Bột quế",
+      "Hành khô"
+    ],
+    "cookMethods": [
+      "HAP",
+      "LUOC"
+    ],
+    "makeAheadMinutes": 180,
+    "isNearServe": false,
+    "equipment": [
+      "HAP",
+      "NOI_NINH"
+    ],
+    "tags": [
+      "nước dùng thơm",
+      "hương quế",
+      "bò/vịt",
+      "hầm kiểu"
+    ],
+    "recipeId": "r_d_canh_ham_vit",
+    "source": "SEED",
+    "popularity": 0.87
+  },
+  {
+    "id": "d_ram_cha_ram",
+    "name": "Ram (chả ram)/chả cua",
+    "roles": [
+      "XAO",
+      "DAU_VI"
+    ],
+    "region": [
+      "TRUNG"
+    ],
+    "mamType": [
+      "MAN"
+    ],
+    "difficulty": 2,
+    "mainIngredients": [
+      "Thịt xay",
+      "Rau ram",
+      "Hành lá",
+      "Trứng gà"
+    ],
+    "cookMethods": [
+      "CHIEN",
+      "TRON_SONG"
+    ],
+    "makeAheadMinutes": 60,
+    "isNearServe": false,
+    "equipment": [
+      "CHAO_CHIEN"
+    ],
+    "tags": [
+      "thơm rau sống",
+      "giòn ngoài",
+      "mềm trong",
+      "để được"
+    ],
+    "recipeId": "r_d_ram_cha_ram",
+    "source": "SEED",
+    "popularity": 0.86
+  },
+  {
+    "id": "d_va_tron_mit_tron",
+    "name": "Vả trộn/mít trộn",
+    "roles": [
+      "DAU_VI",
+      "XAO"
+    ],
+    "region": [
+      "TRUNG"
+    ],
+    "mamType": [
+      "MAN"
+    ],
+    "difficulty": 1,
+    "mainIngredients": [
+      "Vả (hoặc mít)",
+      "Hành khô",
+      "Tôm khô",
+      "Giấm gạo"
+    ],
+    "cookMethods": [
+      "TRON_SONG"
+    ],
+    "makeAheadMinutes": 20,
+    "isNearServe": true,
+    "equipment": [],
+    "tags": [
+      "giòn măt",
+      "nước sốt",
+      "thanh gọn",
+      "cúng bàn"
+    ],
+    "recipeId": "r_d_va_tron_mit_tron",
+    "source": "SEED",
+    "popularity": 0.8
+  },
+  {
+    "id": "d_nem_lui_hue",
+    "name": "Nem Lụi Huế",
+    "roles": [
+      "DAU_VI"
+    ],
+    "region": [
+      "TRUNG"
+    ],
+    "mamType": [
+      "MAN"
+    ],
+    "difficulty": 2,
+    "mainIngredients": [
+      "Thịt nạc vai xay",
+      "Tỏi",
+      "Hành khô",
+      "Mắm cá"
+    ],
+    "cookMethods": [
+      "NUONG"
+    ],
+    "makeAheadMinutes": 120,
+    "isNearServe": false,
+    "equipment": [
+      "BEP"
+    ],
+    "tags": [
+      "khai vị Huế",
+      "nướng",
+      "lá chuối",
+      "Tết"
+    ],
+    "recipeId": "r_d_nem_lui_hue",
+    "source": "SEED",
+    "popularity": 8.5
+  },
+  {
+    "id": "d_cha_hue",
+    "name": "Chả Huế",
+    "roles": [
+      "DAU_VI"
+    ],
+    "region": [
+      "TRUNG"
+    ],
+    "mamType": [
+      "MAN"
+    ],
+    "difficulty": 2,
+    "mainIngredients": [
+      "Thịt ba chỉ",
+      "Gan lợn",
+      "Tỏi",
+      "Hành khô"
+    ],
+    "cookMethods": [
+      "CHIEN"
+    ],
+    "makeAheadMinutes": 240,
+    "isNearServe": false,
+    "equipment": [
+      "CHAO_CHIEN"
+    ],
+    "tags": [
+      "khai vị Huế",
+      "chiên",
+      "thơm ngon",
+      "Tết"
+    ],
+    "recipeId": "r_d_cha_hue",
+    "source": "SEED",
+    "popularity": 8
+  },
+  {
+    "id": "d_banh_tet",
+    "name": "Bánh Tét Miền Trung",
+    "roles": [
+      "TINH_BOT"
+    ],
+    "region": [
+      "TRUNG"
+    ],
+    "mamType": [
+      "MAN"
+    ],
+    "difficulty": 3,
+    "mainIngredients": [
+      "Gạo nếp",
+      "Thịt ba chỉ",
+      "Trứng cút",
+      "Lạp xưởng"
+    ],
+    "cookMethods": [
+      "LUOC"
+    ],
+    "makeAheadMinutes": 480,
+    "isNearServe": false,
+    "equipment": [
+      "NOI_COM"
+    ],
+    "tags": [
+      "bánh Tết",
+      "nấu lâu",
+      "truyền thống"
+    ],
+    "recipeId": "r_d_banh_tet",
+    "source": "SEED",
+    "popularity": 9
+  },
+  {
+    "id": "d_banh_chung_trung",
+    "name": "Bánh Chưng Miền Trung",
+    "roles": [
+      "TINH_BOT"
+    ],
+    "region": [
+      "TRUNG"
+    ],
+    "mamType": [
+      "MAN"
+    ],
+    "difficulty": 3,
+    "mainIngredients": [
+      "Gạo nếp",
+      "Đỗ xanh",
+      "Thịt ba chỉ",
+      "Lá dong"
+    ],
+    "cookMethods": [
+      "LUOC"
+    ],
+    "makeAheadMinutes": 720,
+    "isNearServe": false,
+    "equipment": [
+      "NOI_NINH"
+    ],
+    "tags": [
+      "bánh chưng",
+      "Tết",
+      "để được 3-7 ngày"
+    ],
+    "recipeId": "r_d_banh_chung_trung",
+    "source": "SEED",
+    "popularity": 9.2
+  },
+  {
+    "id": "d_va_tron",
+    "name": "Vả Trộn Huế",
+    "roles": [
+      "NOM_DUA"
+    ],
+    "region": [
+      "TRUNG"
+    ],
+    "mamType": [
+      "MAN"
+    ],
+    "difficulty": 1,
+    "mainIngredients": [
+      "Vả tươi",
+      "Tỏi",
+      "Ớt",
+      "Nước mắm"
+    ],
+    "cookMethods": [
+      "TRON_SONG"
+    ],
+    "makeAheadMinutes": 15,
+    "isNearServe": true,
+    "equipment": [
+      "BEP"
+    ],
+    "tags": [
+      "nôm dưa",
+      "Huế",
+      "thanh mát"
+    ],
+    "recipeId": "r_d_va_tron",
+    "source": "SEED",
+    "popularity": 7.5
+  },
+  {
+    "id": "d_dua_mon_hue",
+    "name": "Dưa Món Huế",
+    "roles": [
+      "NOM_DUA"
+    ],
+    "region": [
+      "TRUNG"
+    ],
+    "mamType": [
+      "MAN"
+    ],
+    "difficulty": 2,
+    "mainIngredients": [
+      "Dưa chuột",
+      "Dưa hành",
+      "Muối",
+      "Chua"
+    ],
+    "cookMethods": [
+      "TRON_SONG"
+    ],
+    "makeAheadMinutes": 1440,
+    "isNearServe": false,
+    "equipment": [
+      "BEP"
+    ],
+    "tags": [
+      "dưa chua",
+      "để 1-2 ngày",
+      "khai vị"
+    ],
+    "recipeId": "r_d_dua_mon_hue",
+    "source": "SEED",
+    "popularity": 7.8
+  },
+  {
+    "id": "d_che_hat_sen_hue",
+    "name": "Chè Hạt Sen Huế",
+    "roles": [
+      "TRANG_MIENG"
+    ],
+    "region": [
+      "TRUNG"
+    ],
+    "mamType": [
+      "MAN"
+    ],
+    "difficulty": 2,
+    "mainIngredients": [
+      "Hạt sen",
+      "Đường phèn",
+      "Hạt liễu xanh",
+      "Cơm nước dừa"
+    ],
+    "cookMethods": [
+      "LUOC",
+      "KHO"
+    ],
+    "makeAheadMinutes": 180,
+    "isNearServe": true,
+    "equipment": [
+      "NOI_COM"
+    ],
+    "tags": [
+      "chè Huế",
+      "trang miệng",
+      "hạt sen",
+      "thanh mát"
+    ],
+    "recipeId": "r_d_che_hat_sen_hue",
+    "source": "SEED",
+    "popularity": 8.5
+  },
+  {
+    "id": "d_canh_dau_phu_nam_chay",
+    "name": "Canh Đậu Phụ Nấm Chay",
+    "roles": [
+      "CANH"
+    ],
+    "region": [
+      "TRUNG"
+    ],
+    "mamType": [
+      "CHAY"
+    ],
+    "difficulty": 1,
+    "mainIngredients": [
+      "Đậu phụ",
+      "Nấm rơm",
+      "Rau cải ngọt",
+      "Hành lá"
+    ],
+    "cookMethods": [
+      "LUOC"
+    ],
+    "makeAheadMinutes": 30,
+    "isNearServe": true,
+    "equipment": [
+      "NOI_COM"
+    ],
+    "tags": [
+      "canh chay",
+      "Huế",
+      "thanh mát",
+      "nhanh"
+    ],
+    "recipeId": "r_d_canh_dau_phu_nam_chay",
+    "source": "SEED",
+    "popularity": 7
+  },
+  {
+    "id": "d_thit_kho_hot_vit",
+    "name": "Thịt kho hột vịt",
+    "roles": [
+      "MON_CHINH"
+    ],
+    "region": [
+      "NAM"
+    ],
+    "mamType": [
+      "MAN"
+    ],
+    "difficulty": 2,
+    "mainIngredients": [
+      "thịt ba chỉ",
+      "trứng vịt",
+      "hành khô",
+      "tỏi",
+      "nước mắm",
+      "đường"
+    ],
+    "cookMethods": [
+      "KHO"
+    ],
+    "makeAheadMinutes": 1440,
+    "isNearServe": false,
+    "equipment": [
+      "NOI_NINH",
+      "BEP"
+    ],
+    "tags": [
+      "Tết",
+      "Neo Tết Nam Bộ",
+      "Kho tàu",
+      "Mặn",
+      "Truyền thống"
+    ],
+    "popularity": 0.95,
+    "recipeId": "r_d_thit_kho_hot_vit",
+    "source": "SEED"
+  },
+  {
+    "id": "d_kho_qua_nhoi_thit",
+    "name": "Khổ qua nhồi thịt hầm",
+    "roles": [
+      "CANH"
+    ],
+    "region": [
+      "NAM"
+    ],
+    "mamType": [
+      "MAN"
+    ],
+    "difficulty": 2,
+    "mainIngredients": [
+      "mướp đắng",
+      "thịt nạc xay",
+      "hành khô",
+      "tỏi",
+      "nước dùng",
+      "nước mắm"
+    ],
+    "cookMethods": [
+      "HAP",
+      "NINH_HAM"
+    ],
+    "makeAheadMinutes": 0,
+    "isNearServe": true,
+    "equipment": [
+      "HAP",
+      "BEP"
+    ],
+    "tags": [
+      "Iconic",
+      "Canh",
+      "Mặn",
+      "Khổ qua"
+    ],
+    "popularity": 0.88,
+    "recipeId": "r_d_kho_qua_nhoi_thit",
+    "source": "SEED"
+  },
+  {
+    "id": "d_ca_loc_kho_to",
+    "name": "Cá lóc kho tộ",
+    "roles": [
+      "MON_CHINH"
+    ],
+    "region": [
+      "NAM"
+    ],
+    "mamType": [
+      "MAN"
+    ],
+    "difficulty": 2,
+    "mainIngredients": [
+      "cá quả",
+      "hành khô",
+      "tỏi",
+      "nước mắm",
+      "đường",
+      "dừa tươi"
+    ],
+    "cookMethods": [
+      "KHO"
+    ],
+    "makeAheadMinutes": 0,
+    "isNearServe": false,
+    "equipment": [
+      "NOI_NINH",
+      "BEP"
+    ],
+    "tags": [
+      "Cá lóc",
+      "Kho tộ",
+      "Mặn",
+      "Sông nước"
+    ],
+    "popularity": 0.85,
+    "recipeId": "r_d_ca_loc_kho_to",
+    "source": "SEED"
+  },
+  {
+    "id": "d_ga_kho_gung",
+    "name": "Gà kho gừng",
+    "roles": [
+      "MON_CHINH"
+    ],
+    "region": [
+      "NAM"
+    ],
+    "mamType": [
+      "MAN"
+    ],
+    "difficulty": 2,
+    "mainIngredients": [
+      "gà ta",
+      "gừng",
+      "hành khô",
+      "tỏi",
+      "nước mắm",
+      "đường"
+    ],
+    "cookMethods": [
+      "KHO",
+      "HAP"
+    ],
+    "makeAheadMinutes": 480,
+    "isNearServe": false,
+    "equipment": [
+      "NOI_NINH",
+      "BEP"
+    ],
+    "tags": [
+      "Gà kho",
+      "Gừng",
+      "Mặn",
+      "Ấm nóng"
+    ],
+    "popularity": 0.82,
+    "recipeId": "r_d_ga_kho_gung",
+    "source": "SEED"
+  },
+  {
+    "id": "d_suon_ram_man",
+    "name": "Sườn ram mặn",
+    "roles": [
+      "MON_CHINH"
+    ],
+    "region": [
+      "NAM"
+    ],
+    "mamType": [
+      "MAN"
+    ],
+    "difficulty": 2,
+    "mainIngredients": [
+      "sườn non",
+      "hành khô",
+      "tỏi",
+      "nước mắm",
+      "đường",
+      "mỡ lợn"
+    ],
+    "cookMethods": [
+      "XAO",
+      "KHO"
+    ],
+    "makeAheadMinutes": 360,
+    "isNearServe": false,
+    "equipment": [
+      "CHAO_CHIEN",
+      "BEP"
+    ],
+    "tags": [
+      "Sườn ram",
+      "Mặn",
+      "Xào",
+      "Thơm ngon"
+    ],
+    "popularity": 0.8,
+    "recipeId": "r_d_suon_ram_man",
+    "source": "SEED"
+  },
+  {
+    "id": "d_canh_chua_ca",
+    "name": "Canh chua cá",
+    "roles": [
+      "CANH"
+    ],
+    "region": [
+      "NAM"
+    ],
+    "mamType": [
+      "MAN"
+    ],
+    "difficulty": 2,
+    "mainIngredients": [
+      "cá trắm",
+      "chua cay",
+      "rau cải",
+      "hành lá",
+      "nước mắm",
+      "nước dùng"
+    ],
+    "cookMethods": [
+      "LUOC"
+    ],
+    "makeAheadMinutes": 0,
+    "isNearServe": true,
+    "equipment": [
+      "NOI_NINH",
+      "BEP"
+    ],
+    "tags": [
+      "Canh chua",
+      "Cá",
+      "Mặn",
+      "Mộc"
+    ],
+    "popularity": 0.78,
+    "recipeId": "r_d_canh_chua_ca",
+    "source": "SEED"
+  },
+  {
+    "id": "d_tom_rim_nuoc_dua",
+    "name": "Tôm rim nước dừa",
+    "roles": [
+      "MON_CHINH"
+    ],
+    "region": [
+      "NAM"
+    ],
+    "mamType": [
+      "MAN"
+    ],
+    "difficulty": 2,
+    "mainIngredients": [
+      "tôm sú",
+      "dừa tươi",
+      "hành khô",
+      "tỏi",
+      "nước mắm",
+      "đường"
+    ],
+    "cookMethods": [
+      "KHO",
+      "CHIEN"
+    ],
+    "makeAheadMinutes": 0,
+    "isNearServe": false,
+    "equipment": [
+      "CHAO_CHIEN",
+      "BEP"
+    ],
+    "tags": [
+      "Tôm rim",
+      "Dừa",
+      "Mặn",
+      "Cao cấp"
+    ],
+    "popularity": 0.84,
+    "recipeId": "r_d_tom_rim_nuoc_dua",
+    "source": "SEED"
+  },
+  {
+    "id": "d_rau_xao_man",
+    "name": "Rau xào mặn",
+    "roles": [
+      "XAO"
+    ],
+    "region": [
+      "NAM"
+    ],
+    "mamType": [
+      "MAN"
+    ],
+    "difficulty": 1,
+    "mainIngredients": [
+      "rau cải ngọt",
+      "tỏi",
+      "hành lá",
+      "nước mắm",
+      "dầu ăn"
+    ],
+    "cookMethods": [
+      "XAO"
+    ],
+    "makeAheadMinutes": 0,
+    "isNearServe": true,
+    "equipment": [
+      "CHAO_CHIEN",
+      "BEP"
+    ],
+    "tags": [
+      "Rau xào",
+      "Mặn",
+      "Nhanh gọn",
+      "Hàng ngày"
+    ],
+    "popularity": 0.75,
+    "recipeId": "r_d_rau_xao_man",
+    "source": "SEED"
+  },
+  {
+    "id": "cha_gio_nam_bo",
+    "name": "Chả giò Nam Bộ",
+    "roles": [
+      "DAU_VI"
+    ],
+    "region": [
+      "NAM"
+    ],
+    "mamType": [
+      "MAN"
+    ],
+    "difficulty": 2,
+    "mainIngredients": [
+      "thit_xay",
+      "tom_kho",
+      "mien_dong"
+    ],
+    "cookMethods": [
+      "CHIEN"
+    ],
+    "makeAheadMinutes": 60,
+    "isNearServe": true,
+    "equipment": [
+      "BEP",
+      "CHAO_CHIEN"
+    ],
+    "tags": [
+      "khai_vi",
+      "chien",
+      "dau_vi",
+      "tet",
+      "nam_bo"
+    ],
+    "recipeId": "r_cha_gio_nam_bo",
+    "source": "SEED",
+    "popularity": 0.92
+  },
+  {
+    "id": "goi_ngo_sen_tom_thit",
+    "name": "Gỏi ngó sen tôm thịt",
+    "roles": [
+      "DAU_VI"
+    ],
+    "region": [
+      "NAM"
+    ],
+    "mamType": [
+      "MAN"
+    ],
+    "difficulty": 2,
+    "mainIngredients": [
+      "ngo_bao_tu",
+      "tom_su",
+      "thit_ba_chi"
+    ],
+    "cookMethods": [
+      "TRON_SONG"
+    ],
+    "makeAheadMinutes": 30,
+    "isNearServe": true,
+    "equipment": [
+      "BEP"
+    ],
+    "tags": [
+      "goi",
+      "khai_vi",
+      "ngo_sen",
+      "tron",
+      "nam_bo"
+    ],
+    "recipeId": "r_goi_ngo_sen_tom_thit",
+    "source": "SEED",
+    "popularity": 0.88
+  },
+  {
+    "id": "goi_cuon",
+    "name": "Gỏi cuốn",
+    "roles": [
+      "DAU_VI"
+    ],
+    "region": [
+      "NAM"
+    ],
+    "mamType": [
+      "MAN"
+    ],
+    "difficulty": 1,
+    "mainIngredients": [
+      "banh_da_nem",
+      "tom_su",
+      "gia_do"
+    ],
+    "cookMethods": [
+      "TRON_SONG"
+    ],
+    "makeAheadMinutes": 20,
+    "isNearServe": true,
+    "equipment": [
+      "BEP"
+    ],
+    "tags": [
+      "goi",
+      "cuon",
+      "nem",
+      "nam_bo",
+      "tron"
+    ],
+    "recipeId": "r_goi_cuon",
+    "source": "SEED",
+    "popularity": 0.85
+  },
+  {
+    "id": "banh_tet",
+    "name": "Bánh tét",
+    "roles": [
+      "TINH_BOT"
+    ],
+    "region": [
+      "NAM"
+    ],
+    "mamType": [
+      "MAN"
+    ],
+    "difficulty": 3,
+    "mainIngredients": [
+      "gao_nep",
+      "thit_ba_chi",
+      "la_chuoi"
+    ],
+    "cookMethods": [
+      "LUOC"
+    ],
+    "makeAheadMinutes": 480,
+    "isNearServe": false,
+    "equipment": [
+      "BEP",
+      "NOI_NINH"
+    ],
+    "tags": [
+      "banh_tet",
+      "tet",
+      "nam_bo",
+      "tinh_bot",
+      "man",
+      "luoc"
+    ],
+    "recipeId": "r_banh_tet",
+    "source": "SEED",
+    "popularity": 0.95
+  },
+  {
+    "id": "xoi_gac_nam",
+    "name": "Xôi gấc",
+    "roles": [
+      "TINH_BOT"
+    ],
+    "region": [
+      "NAM"
+    ],
+    "mamType": [
+      "MAN"
+    ],
+    "difficulty": 2,
+    "mainIngredients": [
+      "gao_nep",
+      "qua_gac",
+      "dau_ha_lan"
+    ],
+    "cookMethods": [
+      "HAP"
+    ],
+    "makeAheadMinutes": 120,
+    "isNearServe": true,
+    "equipment": [
+      "BEP",
+      "HAP",
+      "NOI_COM"
+    ],
+    "tags": [
+      "xoi",
+      "gac",
+      "tet",
+      "nam_bo",
+      "tinh_bot"
+    ],
+    "recipeId": "r_xoi_gac_nam",
+    "source": "SEED",
+    "popularity": 0.9
+  },
+  {
+    "id": "xoi_la_cam",
+    "name": "Xôi lá cẩm",
+    "roles": [
+      "TINH_BOT"
+    ],
+    "region": [
+      "NAM"
+    ],
+    "mamType": [
+      "MAN"
+    ],
+    "difficulty": 2,
+    "mainIngredients": [
+      "gao_nep",
+      "la_dua",
+      "dau_phu"
+    ],
+    "cookMethods": [
+      "HAP"
+    ],
+    "makeAheadMinutes": 120,
+    "isNearServe": true,
+    "equipment": [
+      "BEP",
+      "HAP",
+      "NOI_COM"
+    ],
+    "tags": [
+      "xoi",
+      "cam",
+      "tet",
+      "nam_bo",
+      "tinh_bot"
+    ],
+    "recipeId": "r_xoi_la_cam",
+    "source": "SEED",
+    "popularity": 0.88
+  },
+  {
+    "id": "nom_du_kieu_tom_kho",
+    "name": "Nộm dưa - Củ kiệu tôm khô",
+    "roles": [
+      "NOM_DUA"
+    ],
+    "region": [
+      "NAM"
+    ],
+    "mamType": [
+      "MAN"
+    ],
+    "difficulty": 1,
+    "mainIngredients": [
+      "su_hao",
+      "tom_kho",
+      "lac_nhan"
+    ],
+    "cookMethods": [
+      "TRON_SONG"
+    ],
+    "makeAheadMinutes": 20,
+    "isNearServe": true,
+    "equipment": [
+      "BEP"
+    ],
+    "tags": [
+      "nom",
+      "dua",
+      "tron",
+      "tet",
+      "nam_bo"
+    ],
+    "recipeId": "r_nom_du_kieu_tom_kho",
+    "source": "SEED",
+    "popularity": 0.82
+  },
+  {
+    "id": "che_troi_nuoc",
+    "name": "Chè trôi nước",
+    "roles": [
+      "TRANG_MIENG"
+    ],
+    "region": [
+      "NAM"
+    ],
+    "mamType": [
+      "MAN"
+    ],
+    "difficulty": 2,
+    "mainIngredients": [
+      "bot_san_day",
+      "dua_nao",
+      "duong"
+    ],
+    "cookMethods": [
+      "LUOC"
+    ],
+    "makeAheadMinutes": 30,
+    "isNearServe": true,
+    "equipment": [
+      "BEP"
+    ],
+    "tags": [
+      "che",
+      "trang_mieng",
+      "nam_bo",
+      "bot_san"
+    ],
+    "recipeId": "r_che_troi_nuoc",
+    "source": "SEED",
+    "popularity": 0.85
+  },
+  {
+    "id": "che_dau_xanh",
+    "name": "Chè đậu xanh",
+    "roles": [
+      "TRANG_MIENG"
+    ],
+    "region": [
+      "NAM"
+    ],
+    "mamType": [
+      "MAN"
+    ],
+    "difficulty": 1,
+    "mainIngredients": [
+      "do_xanh_cavo",
+      "duong",
+      "bot_san_day"
+    ],
+    "cookMethods": [
+      "LUOC"
+    ],
+    "makeAheadMinutes": 10,
+    "isNearServe": false,
+    "equipment": [
+      "BEP"
+    ],
+    "tags": [
+      "che",
+      "dau",
+      "trang_mieng",
+      "nam_bo"
+    ],
+    "recipeId": "r_che_dau_xanh",
+    "source": "SEED",
+    "popularity": 0.8
+  },
+  {
+    "id": "kho_queit_chay",
+    "name": "Kho quẹt chay",
+    "roles": [
+      "MON_CHINH"
+    ],
+    "region": [
+      "NAM"
+    ],
+    "mamType": [
+      "CHAY"
+    ],
+    "difficulty": 2,
+    "mainIngredients": [
+      "dau_phu",
+      "ca_rot",
+      "rau_cai_ngot"
+    ],
+    "cookMethods": [
+      "KHO"
+    ],
+    "makeAheadMinutes": 60,
+    "isNearServe": true,
+    "equipment": [
+      "BEP"
+    ],
+    "tags": [
+      "kho",
+      "chay",
+      "nam_bo",
+      "dau_phu"
+    ],
+    "recipeId": "r_kho_queit_chay",
+    "source": "SEED",
+    "popularity": 0.78
+  },
+  {
+    "id": "canh_khoai_mo_chay",
+    "name": "Canh khoai mồ chay",
+    "roles": [
+      "CANH"
+    ],
+    "region": [
+      "NAM"
+    ],
+    "mamType": [
+      "CHAY"
+    ],
+    "difficulty": 1,
+    "mainIngredients": [
+      "su_su",
+      "ca_rot",
+      "rau_mui"
+    ],
+    "cookMethods": [
+      "LUOC"
+    ],
+    "makeAheadMinutes": 5,
+    "isNearServe": true,
+    "equipment": [
+      "BEP"
+    ],
+    "tags": [
+      "canh",
+      "chay",
+      "nam_bo"
+    ],
+    "recipeId": "r_canh_khoai_mo_chay",
+    "source": "SEED",
+    "popularity": 0.75
+  }
+]

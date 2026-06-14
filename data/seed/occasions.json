@@ -1,0 +1,654 @@
+[
+  {
+    "id": "gio_thuong",
+    "name": "Giỗ thường (giỗ thường niên)",
+    "group": "GIO",
+    "lunarHint": "Ngày mất theo âm lịch hằng năm",
+    "mamTypes": [
+      "MAN"
+    ],
+    "scaleClass": "GIA_DINH",
+    "timeOfDay": "Trước giờ Ngọ (trước 11h–12h trưa)",
+    "hasOutdoorTray": false,
+    "defaultBufferType": "GIA_DINH",
+    "regionNotes": {
+      "BAC": "Cỗ Bắc thường có gà luộc nguyên con quay đầu về bát hương, xôi gấc, giò, canh măng/bóng. Bày mâm cân đối, hương số lẻ.",
+      "TRUNG": "Mâm nhiều món nhỏ, đậm vị, hay có nem chua, ram - phong cách cầu kỳ, chi tiết của ẩm thực Huế.",
+      "NAM": "Thịt kho hột vịt, khổ qua, bánh tét - những món đặc trưng ngọt, mặn cân bằng của miền Nam."
+    },
+    "ritualChecklist": [
+      {
+        "id": "gio_thuong_bay_mam",
+        "text": "Bày mâm cỗ lên ban thờ, đặt gà luộc quay đầu về phía bát hương, xôi và các món chính ở giữa.",
+        "note": "Đặt mâm ngay ngắn, bát đũa đủ bộ.",
+        "offsetFromServeMin": -20
+      },
+      {
+        "id": "gio_thuong_ruou_nuoc",
+        "text": "Rót rượu, đặt chén nước, trầu cau và đĩa hoa quả lên ban thờ.",
+        "offsetFromServeMin": -12
+      },
+      {
+        "id": "gio_thuong_thap_huong",
+        "text": "Thắp hương (số nén lẻ, thường 1 hoặc 3 nén) và đèn/nến.",
+        "note": "Chủ lễ thắp trước, các thành viên thắp sau nếu muốn.",
+        "offsetFromServeMin": -8
+      },
+      {
+        "id": "gio_thuong_khan",
+        "text": "Đọc văn khấn mời gia tiên và người được giỗ về thụ lộc, đọc chậm và rõ.",
+        "offsetFromServeMin": -5
+      },
+      {
+        "id": "gio_thuong_cho_huong",
+        "text": "Lui ra, chờ hương cháy khoảng hai phần ba rồi mới hạ lễ.",
+        "offsetFromServeMin": 30
+      },
+      {
+        "id": "gio_thuong_hoa_vang",
+        "text": "Hóa vàng mã, rót thêm chút rượu lên tro khi hóa xong.",
+        "offsetFromServeMin": 45
+      },
+      {
+        "id": "gio_thuong_ha_le",
+        "text": "Hạ lễ, thụ lộc cùng con cháu trong nhà.",
+        "offsetFromServeMin": 50
+      }
+    ],
+    "khanTemplate": "Nam mô A Di Đà Phật (3 lần).\nCon kính lạy chín phương Trời, mười phương Chư Phật, Chư Phật mười phương.\nCon kính lạy Hoàng Thiên Hậu Thổ chư vị Tôn thần.\nCon kính lạy ngài Bản gia Táo quân, Thổ địa, Long Mạch Tôn thần.\nCon kính lạy các cụ Tổ khảo, Tổ tỷ, chư vị hương linh nội ngoại gia tiên.\nHôm nay là ngày {{ngay_am}} tháng {{thang_am}} năm {{nam_am}}.\nTín chủ con là {{ten_chu_le}}, ngụ tại {{dia_chi}}.\nNhân ngày giỗ của {{ten_nguoi_mat}}, chúng con thành tâm sắm sửa hương hoa, cơm canh lễ vật, kính dâng trước án.\nCúi xin {{ten_nguoi_mat}} cùng chư vị gia tiên thương xót con cháu, giáng lâm trước án, chứng giám lòng thành, thụ hưởng lễ vật, phù hộ độ trì cho toàn gia an khang, mọi sự tốt lành.\nChúng con lễ bạc tâm thành, cúi xin được phù hộ độ trì.\nNam mô A Di Đà Phật (3 lần).",
+    "description": "Giỗ thường niên người đã khuất. Mâm cỗ gia đình, không cầu kỳ bằng giỗ đầu nhưng vẫn đủ món neo của cỗ Bắc."
+  },
+  {
+    "id": "gio_dau",
+    "name": "Giỗ đầu (tiểu tường)",
+    "group": "GIO",
+    "lunarHint": "Tròn một năm ngày mất (giỗ đầu)",
+    "mamTypes": [
+      "MAN"
+    ],
+    "scaleClass": "DONG_KHACH",
+    "timeOfDay": "Trước giờ Ngọ, mời họ hàng dự",
+    "hasOutdoorTray": false,
+    "defaultBufferType": "TRANG_TRONG",
+    "regionNotes": {
+      "BAC": "Giỗ đầu còn trong vòng tang, mâm cỗ tươm tất, mời họ hàng. Vẫn giữ không khí trang nghiêm, hạn chế vui đùa.",
+      "TRUNG": "Mâm cỗ nhiều món, có thể mời thầy cúng đọc văn - cúng nghi thức phức tạp, cầu kỳ.",
+      "NAM": "Làm cỗ lớn, đãi khách, có thể đặt thêm mâm cúng đất - quy mô rộng rãi, khách quý."
+    },
+    "ritualChecklist": [
+      {
+        "id": "gio_dau_bay_mam",
+        "text": "Bày mâm cỗ chính lên ban thờ, gà luộc quay đầu về bát hương, sắp xếp các mâm khách ngay ngắn.",
+        "offsetFromServeMin": -30
+      },
+      {
+        "id": "gio_dau_le_vat",
+        "text": "Đặt hoa quả, trầu cau, rượu, nước và vàng mã (giỗ đầu thường có quần áo, đồ mã đầy đủ).",
+        "offsetFromServeMin": -20
+      },
+      {
+        "id": "gio_dau_thap_huong",
+        "text": "Chủ lễ chỉnh trang, thắp hương số lẻ và đèn nến.",
+        "note": "Trong vòng tang, giữ tông giọng và y phục trang nghiêm.",
+        "offsetFromServeMin": -10
+      },
+      {
+        "id": "gio_dau_khan",
+        "text": "Đọc văn khấn giỗ đầu, mời người mất và gia tiên về thụ lộc, đọc chậm rãi.",
+        "offsetFromServeMin": -5
+      },
+      {
+        "id": "gio_dau_cho_huong",
+        "text": "Lui ra để gia tiên thụ lộc, chờ hương cháy khoảng hai phần ba.",
+        "offsetFromServeMin": 35
+      },
+      {
+        "id": "gio_dau_hoa_vang",
+        "text": "Hóa vàng mã: hóa phần thần linh trước, phần gia tiên sau.",
+        "offsetFromServeMin": 50
+      },
+      {
+        "id": "gio_dau_ha_le",
+        "text": "Hạ lễ, mời họ hàng cùng thụ lộc.",
+        "offsetFromServeMin": 55
+      }
+    ],
+    "khanTemplate": "Nam mô A Di Đà Phật (3 lần).\nCon kính lạy chín phương Trời, mười phương Chư Phật, Chư Phật mười phương.\nCon kính lạy Hoàng Thiên Hậu Thổ, chư vị Tôn thần.\nCon kính lạy các cụ Tổ tiên nội ngoại và hương linh {{ten_nguoi_mat}}.\nHôm nay là ngày {{ngay_am}} tháng {{thang_am}} năm {{nam_am}}, ngày giỗ đầu của {{ten_nguoi_mat}}.\nTín chủ con là {{ten_chu_le}}, cùng toàn thể con cháu, ngụ tại {{dia_chi}}.\nThấm thoắt đã tròn một năm {{ten_nguoi_mat}} về cõi vĩnh hằng. Nhớ công ơn sinh thành dưỡng dục, chúng con thành tâm sắm sửa hương hoa lễ vật, cơm canh thịnh soạn, kính dâng trước án.\nCúi xin hương linh {{ten_nguoi_mat}} giáng về, chứng giám lòng thành, thụ hưởng lễ vật, và cùng chư vị gia tiên phù hộ độ trì cho con cháu mạnh khỏe, gia đạo bình an.\nChúng con lễ bạc tâm thành, cúi xin chứng giám.\nNam mô A Di Đà Phật (3 lần).",
+    "description": "Giỗ tròn một năm (tiểu tường). Còn trong vòng tang, làm cỗ tươm tất mời họ hàng, tông không khí trang nghiêm."
+  },
+  {
+    "id": "cung_49_ngay",
+    "name": "Cúng 49 ngày (chung thất)",
+    "group": "GIO",
+    "lunarHint": "Đúng 49 ngày kể từ ngày mất",
+    "mamTypes": [
+      "MAN",
+      "CHAY"
+    ],
+    "scaleClass": "GIA_DINH",
+    "timeOfDay": "Buổi trưa hoặc theo giờ gia đình định",
+    "hasOutdoorTray": false,
+    "defaultBufferType": "GIA_DINH",
+    "regionNotes": {
+      "BAC": "Nhiều gia đình theo Phật làm mâm chay cho 49 ngày; nhà khác làm mâm mặn. Là dịp đầu tiên người con trưởng hay phải tự lo, cần dẫn dắt nhẹ nhàng.",
+      "TRUNG": "Thường mời sư thầy tụng kinh, làm cỗ chay - thực hành Phật giáo nghiêm ngặt.",
+      "NAM": "Có thể làm mâm chay hoặc mặn tùy nếp nhà - linh hoạt, tuân theo truyền thống gia đình."
+    },
+    "ritualChecklist": [
+      {
+        "id": "cung_49_bay_mam",
+        "text": "Bày mâm cơm cúng lên ban thờ người mới mất, sắp xếp gọn gàng, đặt thêm bát cơm và đôi đũa.",
+        "note": "Bát cơm úp/lèn đầy, cắm đôi đũa theo nếp gia đình.",
+        "offsetFromServeMin": -20
+      },
+      {
+        "id": "cung_49_le_vat",
+        "text": "Đặt hoa, quả, nước, trầu cau và vàng mã chuẩn bị cho 49 ngày.",
+        "offsetFromServeMin": -12
+      },
+      {
+        "id": "cung_49_thap_huong",
+        "text": "Thắp hương và đèn, giữ không gian tĩnh lặng.",
+        "offsetFromServeMin": -8
+      },
+      {
+        "id": "cung_49_khan",
+        "text": "Đọc văn khấn cầu cho hương linh siêu thoát, nương nhờ cửa Phật, đọc chậm và thành tâm.",
+        "offsetFromServeMin": -5
+      },
+      {
+        "id": "cung_49_cho_huong",
+        "text": "Lui ra, để hương linh thụ lộc, chờ hương cháy gần hết.",
+        "offsetFromServeMin": 30
+      },
+      {
+        "id": "cung_49_hoa_vang",
+        "text": "Hóa vàng mã đã chuẩn bị, làm nhẹ nhàng, thành kính.",
+        "offsetFromServeMin": 45
+      },
+      {
+        "id": "cung_49_ha_le",
+        "text": "Hạ lễ, gia đình thụ lộc trong không khí ấm cúng, tưởng nhớ người đã khuất.",
+        "offsetFromServeMin": 50
+      }
+    ],
+    "khanTemplate": "Nam mô A Di Đà Phật (3 lần).\nCon kính lạy chín phương Trời, mười phương Chư Phật, Chư Phật mười phương.\nCon kính lạy Đức Phật A Di Đà, Đức Quan Thế Âm Bồ Tát.\nCon kính lạy chư vị gia tiên nội ngoại và hương linh {{ten_nguoi_mat}}.\nHôm nay là ngày {{ngay_am}} tháng {{thang_am}} năm {{nam_am}}, là ngày chung thất (49 ngày) của {{ten_nguoi_mat}}.\nTín chủ con là {{ten_chu_le}}, cùng toàn gia, ngụ tại {{dia_chi}}.\nChúng con thành tâm sắm sửa hương hoa, cơm canh lễ vật kính dâng. Nguyện cầu hồng ân Tam Bảo, chư Phật mười phương tiếp dẫn hương linh {{ten_nguoi_mat}} sớm được siêu sinh tịnh độ, nương nhờ nơi cửa Phật.\nCúi xin hương linh thụ hưởng lễ vật, an lòng nơi miền cực lạc, phù hộ cho con cháu bình an.\nChúng con lễ bạc tâm thành, cúi xin chứng giám.\nNam mô A Di Đà Phật (3 lần).",
+    "description": "Lễ chung thất 49 ngày. Thường là dịp đầu tiên con trưởng đứng ra lo, có thể làm mâm chay hoặc mặn. Tông trầm, trang nghiêm."
+  },
+  {
+    "id": "cung_100_ngay",
+    "name": "Cúng 100 ngày (tốt khốc)",
+    "group": "GIO",
+    "lunarHint": "Đúng 100 ngày kể từ ngày mất",
+    "mamTypes": [
+      "MAN",
+      "CHAY"
+    ],
+    "scaleClass": "GIA_DINH",
+    "timeOfDay": "Buổi trưa hoặc theo giờ gia đình định",
+    "hasOutdoorTray": false,
+    "defaultBufferType": "GIA_DINH",
+    "regionNotes": {
+      "BAC": "Lễ tốt khốc (thôi khóc) sau 100 ngày, mâm cơm cúng gia đình ấm cúng, vẫn còn trong tang.",
+      "TRUNG": "Có thể làm cỗ và mời họ hàng thân thuộc - bắt đầu thoát khỏi kỷ niệm tang sorrow.",
+      "NAM": "Thường làm mâm cơm cúng gia tiên giản dị - tôn trọng không khí tĩnh lặng, gia đình."
+    },
+    "ritualChecklist": [
+      {
+        "id": "cung_100_bay_mam",
+        "text": "Bày mâm cơm cúng lên ban thờ, đặt bát cơm úp và đôi đũa cho người mới mất.",
+        "offsetFromServeMin": -20
+      },
+      {
+        "id": "cung_100_le_vat",
+        "text": "Đặt hoa, quả, nước, trầu cau và vàng mã lên ban thờ.",
+        "offsetFromServeMin": -12
+      },
+      {
+        "id": "cung_100_thap_huong",
+        "text": "Thắp hương và đèn, giữ không khí lặng lẽ, trang nghiêm.",
+        "offsetFromServeMin": -8
+      },
+      {
+        "id": "cung_100_khan",
+        "text": "Đọc văn khấn lễ tốt khốc, cầu cho hương linh an yên, đọc chậm rãi.",
+        "offsetFromServeMin": -5
+      },
+      {
+        "id": "cung_100_cho_huong",
+        "text": "Lui ra, để hương linh thụ lộc, chờ hương cháy gần hết.",
+        "offsetFromServeMin": 30
+      },
+      {
+        "id": "cung_100_hoa_vang",
+        "text": "Hóa vàng mã, thành kính.",
+        "offsetFromServeMin": 45
+      },
+      {
+        "id": "cung_100_ha_le",
+        "text": "Hạ lễ, gia đình cùng thụ lộc và tưởng nhớ.",
+        "offsetFromServeMin": 50
+      }
+    ],
+    "khanTemplate": "Nam mô A Di Đà Phật (3 lần).\nCon kính lạy chín phương Trời, mười phương Chư Phật, Chư Phật mười phương.\nCon kính lạy chư vị gia tiên nội ngoại và hương linh {{ten_nguoi_mat}}.\nHôm nay là ngày {{ngay_am}} tháng {{thang_am}} năm {{nam_am}}, là ngày lễ tốt khốc (100 ngày) của {{ten_nguoi_mat}}.\nTín chủ con là {{ten_chu_le}}, cùng toàn gia, ngụ tại {{dia_chi}}.\nChúng con thành tâm sắm sửa hương hoa, cơm canh lễ vật, kính dâng trước án. Cúi xin hương linh {{ten_nguoi_mat}} về thụ hưởng, an yên nơi chín suối, và cùng gia tiên phù hộ cho con cháu mạnh khỏe, bình an.\nChúng con lễ bạc tâm thành, cúi xin chứng giám.\nNam mô A Di Đà Phật (3 lần).",
+    "description": "Lễ tốt khốc 100 ngày, đánh dấu thôi khóc. Mâm cơm cúng gia đình, có thể chay hoặc mặn."
+  },
+  {
+    "id": "tat_nien",
+    "name": "Tất niên (cúng tất niên cuối năm)",
+    "group": "TET",
+    "lunarHint": "Chiều 29 hoặc 30 tháng Chạp",
+    "mamTypes": [
+      "MAN",
+      "CHAY"
+    ],
+    "scaleClass": "DONG_KHACH",
+    "timeOfDay": "Chiều cuối năm, trước bữa cơm tất niên",
+    "hasOutdoorTray": false,
+    "defaultBufferType": "TRANG_TRONG",
+    "regionNotes": {
+      "BAC": "Mâm tất niên đủ đầy: gà luộc, bánh chưng, xôi gấc, giò, canh măng, nem rán. Cúng mời gia tiên về ăn Tết cùng con cháu.",
+      "TRUNG": "Mâm cỗ có nem chua, thịt heo ngâm mắm - những hương vị đậm đà, khoái vị Huế.",
+      "NAM": "Thịt kho hột vịt, bánh tét, canh khổ qua; nhiều nhà cúng thêm mâm ngoài trời - phong phú, rộng rãi."
+    },
+    "ritualChecklist": [
+      {
+        "id": "tat_nien_don_dep",
+        "text": "Lau dọn ban thờ, bày mâm ngũ quả và cành đào, trang trí cho không khí Tết.",
+        "offsetFromServeMin": -40
+      },
+      {
+        "id": "tat_nien_bay_mam",
+        "text": "Bày mâm cỗ tất niên lên ban thờ, gà luộc quay đầu về bát hương, bánh chưng và xôi ở giữa.",
+        "offsetFromServeMin": -20
+      },
+      {
+        "id": "tat_nien_le_vat",
+        "text": "Đặt rượu, trà, trầu cau và vàng mã lên ban thờ.",
+        "offsetFromServeMin": -12
+      },
+      {
+        "id": "tat_nien_thap_huong",
+        "text": "Thắp hương, đèn nến, chỉnh trang y phục chỉnh tề.",
+        "offsetFromServeMin": -8
+      },
+      {
+        "id": "tat_nien_khan",
+        "text": "Đọc văn khấn tất niên, mời gia tiên về ăn Tết cùng con cháu.",
+        "offsetFromServeMin": -5
+      },
+      {
+        "id": "tat_nien_cho_huong",
+        "text": "Chờ hương cháy khoảng hai phần ba.",
+        "offsetFromServeMin": 30
+      },
+      {
+        "id": "tat_nien_hoa_vang",
+        "text": "Hóa vàng mã tất niên.",
+        "offsetFromServeMin": 45
+      },
+      {
+        "id": "tat_nien_ha_le",
+        "text": "Hạ lễ, cả nhà quây quần ăn bữa cơm tất niên sum vầy.",
+        "offsetFromServeMin": 50
+      }
+    ],
+    "khanTemplate": "Nam mô A Di Đà Phật (3 lần).\nCon kính lạy chín phương Trời, mười phương Chư Phật, Chư Phật mười phương.\nCon kính lạy Hoàng Thiên Hậu Thổ, chư vị Tôn thần.\nCon kính lạy ngài Bản cảnh Thành hoàng, ngài Bản gia Táo quân, Thổ địa.\nCon kính lạy chư vị Tổ tiên nội ngoại gia tộc.\nHôm nay là ngày {{ngay_am}} tháng Chạp năm {{nam_am}}.\nTín chủ con là {{ten_chu_le}}, ngụ tại {{dia_chi}}.\nTrước thềm năm mới, chúng con thành tâm sửa biện hương hoa, lễ vật, cơm canh, kính dâng trước án. Cúi xin chư vị Tôn thần và gia tiên giáng lâm, chứng giám lòng thành, thụ hưởng lễ vật, về ăn Tết cùng con cháu, phù hộ cho gia đình một năm mới an khang thịnh vượng, vạn sự như ý.\nChúng con lễ bạc tâm thành, cúi xin chứng giám.\nNam mô A Di Đà Phật (3 lần).",
+    "description": "Cúng tất niên chiều cuối năm, mời gia tiên về ăn Tết. Mâm cỗ đầy đủ, đông khách, không khí ấm cúng sum vầy."
+  },
+  {
+    "id": "giao_thua",
+    "name": "Giao thừa (trừ tịch)",
+    "group": "TET",
+    "lunarHint": "Đêm 30 rạng sáng mùng 1 Tết",
+    "mamTypes": [
+      "MAN",
+      "CHAY"
+    ],
+    "scaleClass": "CO_MAM_PHU",
+    "timeOfDay": "Đúng thời khắc giao thừa (0h)",
+    "hasOutdoorTray": true,
+    "defaultBufferType": "GIA_DINH",
+    "regionNotes": {
+      "BAC": "Cúng hai mâm: mâm ngoài trời cúng quan Hành khiển trước, mâm trong nhà cúng gia tiên sau. Mâm ngoài trời thường có gà trống luộc, xôi, bánh chưng.",
+      "TRUNG": "Mâm ngoài trời tiễn năm cũ đón năm mới - tuân thủ nghi lễ giao thừa chuẩn mực.",
+      "NAM": "Cúng ngoài trời với gà, trái cây, bánh tét; mâm trong nhà cúng gia tiên - kết hợp từng vị từng người."
+    },
+    "ritualChecklist": [
+      {
+        "id": "giao_thua_mam_ngoai",
+        "text": "Bày mâm cúng ngoài trời (mâm cúng quan Hành khiển) hướng ra sân, đủ gà luộc, xôi, bánh chưng, hoa quả, vàng mã.",
+        "note": "Mâm ngoài trời cúng trước mâm trong nhà.",
+        "offsetFromServeMin": -15
+      },
+      {
+        "id": "giao_thua_thap_huong_ngoai",
+        "text": "Đúng thời khắc giao thừa, thắp hương mâm ngoài trời, đọc văn khấn tiễn quan Hành khiển cũ, đón quan mới.",
+        "offsetFromServeMin": 0
+      },
+      {
+        "id": "giao_thua_mam_trong",
+        "text": "Vào nhà bày mâm cúng gia tiên, thắp hương ban thờ trong nhà.",
+        "offsetFromServeMin": 8
+      },
+      {
+        "id": "giao_thua_khan_trong",
+        "text": "Đọc văn khấn gia tiên đêm giao thừa, mời ông bà về đón năm mới.",
+        "offsetFromServeMin": 12
+      },
+      {
+        "id": "giao_thua_cho_huong",
+        "text": "Chờ hương cháy, giữ không khí trang trọng đầu năm.",
+        "offsetFromServeMin": 30
+      },
+      {
+        "id": "giao_thua_hoa_vang",
+        "text": "Hóa vàng mã ngoài trời, hóa phần thần linh trước.",
+        "offsetFromServeMin": 40
+      },
+      {
+        "id": "giao_thua_ha_le",
+        "text": "Hạ lễ, cả nhà chúc nhau năm mới an lành.",
+        "offsetFromServeMin": 45
+      }
+    ],
+    "khanTemplate": "Nam mô A Di Đà Phật (3 lần).\nKính lạy chín phương Trời, mười phương Chư Phật, Chư Phật mười phương.\nKính lạy Đức Đương lai hạ sinh Di Lặc Tôn Phật.\nKính lạy ngài Cựu niên Hành khiển, ngài Đương niên Hành khiển, các vị Tôn thần.\nKính lạy chư vị gia tiên nội ngoại.\nNay là giờ phút giao thừa năm {{nam_cu}} chuyển sang năm {{nam_moi}}.\nTín chủ con là {{ten_chu_le}}, ngụ tại {{dia_chi}}.\nNhân buổi trừ tịch, chúng con thành tâm sửa biện hương hoa lễ vật, kính dâng trước án. Cung tiễn vị Hành khiển năm cũ, nghênh đón vị Hành khiển năm mới, cúi xin chư vị Tôn thần và gia tiên giáng lâm, chứng giám lòng thành, phù hộ độ trì cho gia đình bước sang năm mới mạnh khỏe, bình an, vạn sự hanh thông.\nChúng con lễ bạc tâm thành, cúi xin chứng giám.\nNam mô A Di Đà Phật (3 lần).",
+    "description": "Lễ trừ tịch đêm giao thừa, cúng hai mâm: ngoài trời (quan Hành khiển) trước, trong nhà (gia tiên) sau. Có mâm phụ ngoài trời."
+  },
+  {
+    "id": "mung_1_tet",
+    "name": "Cúng mùng 1 Tết (Nguyên đán)",
+    "group": "TET",
+    "lunarHint": "Sáng mùng 1 tháng Giêng",
+    "mamTypes": [
+      "MAN",
+      "CHAY"
+    ],
+    "scaleClass": "DONG_KHACH",
+    "timeOfDay": "Sáng mùng 1, trước bữa cơm đầu năm",
+    "hasOutdoorTray": false,
+    "defaultBufferType": "TRANG_TRONG",
+    "regionNotes": {
+      "BAC": "Mâm cỗ Tết truyền thống: gà luộc, bánh chưng, xôi gấc, giò, nem, canh măng/bóng, dưa hành. Cúng gia tiên sáng đầu năm.",
+      "TRUNG": "Có thêm bánh tét, nem, tré, thịt ngâm mắm - phong vị đặc trưng Huế-Đà Nẵng.",
+      "NAM": "Bánh tét, thịt kho hột vịt, canh khổ qua, củ kiệu - cân bằng ngọt mặn điểm tĩnh."
+    },
+    "ritualChecklist": [
+      {
+        "id": "mung1_bay_mam",
+        "text": "Bày mâm cỗ Tết lên ban thờ, gà luộc quay đầu về bát hương, bánh chưng và xôi gấc ở vị trí trang trọng.",
+        "offsetFromServeMin": -25
+      },
+      {
+        "id": "mung1_le_vat",
+        "text": "Bày mâm ngũ quả, rượu, trà, trầu cau và bánh kẹo Tết.",
+        "offsetFromServeMin": -15
+      },
+      {
+        "id": "mung1_thap_huong",
+        "text": "Chủ lễ y phục chỉnh tề, thắp hương và đèn nến đầu năm.",
+        "offsetFromServeMin": -8
+      },
+      {
+        "id": "mung1_khan",
+        "text": "Đọc văn khấn nguyên đán, mời gia tiên về hưởng Tết và cầu phúc đầu năm.",
+        "offsetFromServeMin": -5
+      },
+      {
+        "id": "mung1_cho_huong",
+        "text": "Chờ hương cháy khoảng hai phần ba, giữ không khí vui tươi trang trọng.",
+        "offsetFromServeMin": 30
+      },
+      {
+        "id": "mung1_hoa_vang",
+        "text": "Hóa vàng mã (nhiều nhà để đến lễ hóa vàng mùng 3-4 mới hóa).",
+        "note": "Tùy nếp nhà, có thể chỉ thắp hương mùng 1 và hóa vàng vào ngày hóa vàng.",
+        "offsetFromServeMin": 45
+      },
+      {
+        "id": "mung1_ha_le",
+        "text": "Hạ lễ, cả nhà chúc Tết, mừng tuổi và dùng bữa cơm đầu năm.",
+        "offsetFromServeMin": 50
+      }
+    ],
+    "khanTemplate": "Nam mô A Di Đà Phật (3 lần).\nCon kính lạy chín phương Trời, mười phương Chư Phật, Chư Phật mười phương.\nCon kính lạy Đức Đương lai hạ sinh Di Lặc Tôn Phật.\nCon kính lạy Hoàng Thiên Hậu Thổ, chư vị Tôn thần.\nCon kính lạy chư vị Tổ tiên nội ngoại gia tộc.\nHôm nay là ngày mùng 1 tháng Giêng năm {{nam_am}}, ngày đầu xuân Nguyên đán.\nTín chủ con là {{ten_chu_le}}, ngụ tại {{dia_chi}}.\nNhân tiết đầu xuân, chúng con thành tâm sửa biện hương hoa lễ vật, cơm canh, kính dâng trước án. Cúi xin chư vị Tôn thần và gia tiên giáng lâm, chứng giám lòng thành, thụ hưởng lễ vật, phù hộ cho toàn gia một năm mới an khang, thịnh vượng, con cháu hiếu thảo, gia đạo hưng long.\nChúng con lễ bạc tâm thành, cúi xin chứng giám.\nNam mô A Di Đà Phật (3 lần).",
+    "description": "Cúng gia tiên sáng mùng 1 Tết. Mâm cỗ Tết truyền thống đầy đủ, đông khách, không khí mừng năm mới."
+  },
+  {
+    "id": "ong_cong_ong_tao",
+    "name": "Cúng ông Công ông Táo",
+    "group": "TET",
+    "lunarHint": "23 tháng Chạp",
+    "mamTypes": [
+      "MAN",
+      "CHAY"
+    ],
+    "scaleClass": "GIA_DINH",
+    "timeOfDay": "Trước giờ Ngọ ngày 23 tháng Chạp",
+    "hasOutdoorTray": false,
+    "defaultBufferType": "GIA_DINH",
+    "regionNotes": {
+      "BAC": "Đặc trưng có cá chép sống để thả phóng sinh (Táo cưỡi cá chép về trời) và bộ mũ áo Táo quân vàng mã. Cúng trước giờ Ngọ.",
+      "TRUNG": "Cúng ngựa giấy thay cá chép ở một số nơi - linh hoạt, thay thế theo điều kiện địa phương.",
+      "NAM": "Thường cúng cá chép giấy, có thêm kẹo mè cho ông Táo - lạc quan, đơn giản và thực tiễn."
+    },
+    "ritualChecklist": [
+      {
+        "id": "tao_bay_mam",
+        "text": "Bày mâm cỗ cúng Táo quân lên ban thờ hoặc bàn cúng, đặt bộ ba mũ áo Táo quân (vàng mã).",
+        "offsetFromServeMin": -20
+      },
+      {
+        "id": "tao_ca_chep",
+        "text": "Chuẩn bị cá chép sống thả trong chậu nước (hoặc cá chép giấy) làm phương tiện đưa Táo về trời.",
+        "offsetFromServeMin": -15
+      },
+      {
+        "id": "tao_le_vat",
+        "text": "Đặt hoa, quả, trầu cau, rượu, nước lên ban thờ.",
+        "offsetFromServeMin": -12
+      },
+      {
+        "id": "tao_thap_huong",
+        "text": "Thắp hương và đèn, làm lễ trước giờ Ngọ (không để quá trưa).",
+        "note": "Cúng phải xong trước 12h trưa để Táo kịp về chầu Trời.",
+        "offsetFromServeMin": -8
+      },
+      {
+        "id": "tao_khan",
+        "text": "Đọc văn khấn tiễn ông Công ông Táo lên chầu Trời, báo cáo việc nhà một năm.",
+        "offsetFromServeMin": -5
+      },
+      {
+        "id": "tao_cho_huong",
+        "text": "Chờ hương cháy gần hết.",
+        "offsetFromServeMin": 25
+      },
+      {
+        "id": "tao_hoa_ma",
+        "text": "Hóa mũ áo Táo quân và vàng mã.",
+        "offsetFromServeMin": 35
+      },
+      {
+        "id": "tao_tha_ca",
+        "text": "Mang cá chép sống ra sông/hồ phóng sinh, thả nhẹ nhàng, không ném từ trên cao.",
+        "note": "Thả cá rồi mang túi nilon về, giữ gìn vệ sinh.",
+        "offsetFromServeMin": 45
+      }
+    ],
+    "khanTemplate": "Nam mô A Di Đà Phật (3 lần).\nCon kính lạy chín phương Trời, mười phương Chư Phật, Chư Phật mười phương.\nCon kính lạy ngài Đông Trù Tư Mệnh Táo Phủ Thần Quân.\nHôm nay là ngày 23 tháng Chạp năm {{nam_am}}.\nTín chủ con là {{ten_chu_le}}, ngụ tại {{dia_chi}}.\nNhân ngày ông Táo chầu Trời, chúng con thành tâm sửa biện hương hoa, lễ vật, mũ áo, cá chép, kính dâng trước án. Cúi xin Tôn thần gia ân, chứng giám lòng thành, thụ hưởng lễ vật. Khi lên chầu Trời, kính mong ngài tâu bày những điều tốt lành cho gia đình, phù hộ cho toàn gia một năm mới ấm no, bếp lửa đỏ lửa quanh năm, gia đạo bình an.\nChúng con lễ bạc tâm thành, cúi xin chứng giám.\nNam mô A Di Đà Phật (3 lần).",
+    "description": "Cúng tiễn ông Công ông Táo về trời ngày 23 tháng Chạp. Đặc trưng miền Bắc có cá chép sống phóng sinh và mũ áo Táo quân. Phải xong trước giờ Ngọ."
+  },
+  {
+    "id": "ram_thang_gieng",
+    "name": "Rằm tháng Giêng (Tết Nguyên tiêu)",
+    "group": "RAM",
+    "lunarHint": "15 tháng Giêng",
+    "mamTypes": [
+      "MAN",
+      "CHAY"
+    ],
+    "scaleClass": "GIA_DINH",
+    "timeOfDay": "Sáng hoặc trưa ngày rằm, tốt nhất giờ Ngọ",
+    "hasOutdoorTray": false,
+    "defaultBufferType": "GIA_DINH",
+    "regionNotes": {
+      "BAC": "Cúng rằm tháng Giêng được coi trọng (\"Cúng cả năm không bằng rằm tháng Giêng\"). Nhiều nhà làm mâm chay lễ Phật và mâm mặn cúng gia tiên.",
+      "TRUNG": "Đi chùa lễ Phật, làm cỗ chay - trọng Phật giáo, tôn kính linh thiêng.",
+      "NAM": "Làm mâm cúng gia tiên và lễ chùa, có chè xôi - kết hợp gia tiên và Phật pháp."
+    },
+    "ritualChecklist": [
+      {
+        "id": "ram_gieng_bay_mam",
+        "text": "Bày mâm cúng (chay lễ Phật và/hoặc mặn cúng gia tiên) lên ban thờ ngay ngắn.",
+        "offsetFromServeMin": -20
+      },
+      {
+        "id": "ram_gieng_le_vat",
+        "text": "Đặt hoa tươi, ngũ quả, trầu cau, nước/trà và oản, xôi chè.",
+        "offsetFromServeMin": -12
+      },
+      {
+        "id": "ram_gieng_thap_huong",
+        "text": "Thắp hương số lẻ và đèn nến.",
+        "offsetFromServeMin": -8
+      },
+      {
+        "id": "ram_gieng_khan",
+        "text": "Đọc văn khấn lễ Phật và gia tiên rằm tháng Giêng, cầu một năm bình an.",
+        "offsetFromServeMin": -5
+      },
+      {
+        "id": "ram_gieng_cho_huong",
+        "text": "Chờ hương cháy khoảng hai phần ba.",
+        "offsetFromServeMin": 30
+      },
+      {
+        "id": "ram_gieng_hoa_vang",
+        "text": "Hóa vàng mã (nếu có).",
+        "offsetFromServeMin": 40
+      },
+      {
+        "id": "ram_gieng_ha_le",
+        "text": "Hạ lễ, gia đình thụ lộc.",
+        "offsetFromServeMin": 45
+      }
+    ],
+    "khanTemplate": "Nam mô A Di Đà Phật (3 lần).\nCon kính lạy chín phương Trời, mười phương Chư Phật, Chư Phật mười phương.\nCon kính lạy Hoàng Thiên Hậu Thổ, chư vị Tôn thần.\nCon kính lạy ngài Bản gia Táo quân, Thổ địa, Long Mạch Tôn thần.\nCon kính lạy chư vị Tổ tiên nội ngoại.\nHôm nay là ngày rằm tháng Giêng năm {{nam_am}}, tiết Nguyên tiêu.\nTín chủ con là {{ten_chu_le}}, ngụ tại {{dia_chi}}.\nChúng con thành tâm sửa biện hương hoa, lễ vật, kính dâng trước án. Cúi xin chư Phật, chư vị Tôn thần và gia tiên giáng lâm, chứng giám lòng thành, thụ hưởng lễ vật, phù hộ cho toàn gia một năm mới mạnh khỏe, an khang, mọi sự cát tường.\nChúng con lễ bạc tâm thành, cúi xin chứng giám.\nNam mô A Di Đà Phật (3 lần).",
+    "description": "Rằm tháng Giêng (Nguyên tiêu) được coi trọng bậc nhất trong năm. Làm mâm chay lễ Phật và/hoặc mâm mặn cúng gia tiên."
+  },
+  {
+    "id": "vu_lan",
+    "name": "Rằm tháng Bảy - Vu Lan & cúng chúng sinh",
+    "group": "RAM",
+    "lunarHint": "15 tháng Bảy (cúng từ mùng 2 đến rằm)",
+    "mamTypes": [
+      "CHAY",
+      "MAN",
+      "CHUNG_SINH"
+    ],
+    "scaleClass": "CO_MAM_PHU",
+    "timeOfDay": "Cúng Phật/gia tiên ban ngày; cúng chúng sinh chiều tối",
+    "hasOutdoorTray": true,
+    "defaultBufferType": "GIA_DINH",
+    "regionNotes": {
+      "BAC": "Ba lễ: cúng Phật (chay) và gia tiên báo hiếu ban ngày, cúng chúng sinh (cô hồn) ngoài trời/trước cửa vào chiều tối với cháo loãng, bỏng, kẹo, gạo muối.",
+      "TRUNG": "Lễ Vu Lan báo hiếu, lên chùa cài hoa hồng - biểu tượng tình cảm, kính hiếu sâu sắc.",
+      "NAM": "Cúng cô hồn rằm tháng Bảy phổ biến, mâm chúng sinh ngoài trời - lòng thương, bố thí rộng rãi."
+    },
+    "ritualChecklist": [
+      {
+        "id": "vulan_mam_phat",
+        "text": "Ban ngày bày mâm chay lễ Phật và mâm cúng gia tiên trong nhà, báo hiếu cha mẹ tổ tiên.",
+        "offsetFromServeMin": -30
+      },
+      {
+        "id": "vulan_khan_giatien",
+        "text": "Thắp hương, đọc văn khấn Vu Lan báo hiếu trước ban thờ Phật và gia tiên.",
+        "offsetFromServeMin": -10
+      },
+      {
+        "id": "vulan_mam_chungsinh",
+        "text": "Chiều tối bày mâm cúng chúng sinh ngoài trời/trước cửa: cháo loãng, bỏng, kẹo, bánh, gạo muối, tiền vàng và quần áo chúng sinh.",
+        "note": "Mâm chúng sinh đặt ngoài trời, không đặt trong nhà.",
+        "offsetFromServeMin": 0
+      },
+      {
+        "id": "vulan_thap_huong_chungsinh",
+        "text": "Thắp hương mâm chúng sinh, đọc văn khấn thí thực cô hồn.",
+        "offsetFromServeMin": 5
+      },
+      {
+        "id": "vulan_cho_huong",
+        "text": "Chờ hương cháy hết.",
+        "offsetFromServeMin": 30
+      },
+      {
+        "id": "vulan_hoa_vang",
+        "text": "Hóa tiền vàng và quần áo chúng sinh ngoài trời.",
+        "offsetFromServeMin": 40
+      },
+      {
+        "id": "vulan_rai_gao_muoi",
+        "text": "Rải gạo muối ra sân/đường để bố thí cô hồn, kết thúc lễ.",
+        "note": "Rải nhẹ ra bốn phương, lòng thành bố thí.",
+        "offsetFromServeMin": 45
+      }
+    ],
+    "khanTemplate": "Nam mô A Di Đà Phật (3 lần).\nCon kính lạy chín phương Trời, mười phương Chư Phật, Chư Phật mười phương.\nCon kính lạy Đức Địa Tạng Vương Bồ Tát, Đức Mục Kiền Liên Tôn Giả.\nCon kính lạy chư vị gia tiên nội ngoại.\nHôm nay là ngày rằm tháng Bảy năm {{nam_am}}, tiết Vu Lan báo hiếu.\nTín chủ con là {{ten_chu_le}}, ngụ tại {{dia_chi}}.\nChúng con thành tâm sửa biện hương hoa, lễ vật, kính dâng trước án. Nhân mùa Vu Lan, chúng con tưởng nhớ công ơn sinh thành dưỡng dục của cha mẹ tổ tiên, cúi xin chư Phật và gia tiên chứng giám lòng thành, thụ hưởng lễ vật. Lại xin thương xót các vong linh cô hồn không nơi nương tựa, thụ hưởng lộc thực, sớm được siêu thoát.\nChúng con lễ bạc tâm thành, cúi xin chứng giám.\nNam mô A Di Đà Phật (3 lần).",
+    "description": "Rằm tháng Bảy gồm Vu Lan báo hiếu (mâm chay lễ Phật + gia tiên ban ngày) và cúng chúng sinh/cô hồn ngoài trời chiều tối. Có mâm phụ ngoài trời."
+  },
+  {
+    "id": "mung_1_ram_hang_thang",
+    "name": "Cúng mùng 1 và ngày rằm hàng tháng",
+    "group": "RAM",
+    "lunarHint": "Mùng 1 và 15 âm lịch hàng tháng",
+    "mamTypes": [
+      "CHAY",
+      "MAN"
+    ],
+    "scaleClass": "GIA_DINH",
+    "timeOfDay": "Sáng hoặc trưa, thường trước giờ Ngọ",
+    "hasOutdoorTray": false,
+    "defaultBufferType": "VUA_DU",
+    "regionNotes": {
+      "BAC": "Lễ thường nhật, giản dị: hương hoa, quả, trầu cau, nước; nhiều nhà chỉ cúng chay (hoa quả, oản, xôi chè) hoặc mâm cơm nhỏ.",
+      "TRUNG": "Thường thắp hương hoa quả, xôi chè đơn giản - giản lược, tĩnh tâm ngày thường.",
+      "NAM": "Cúng hoa quả, nước, có thể thêm chè xôi - nhẹ nhàng, hòa nhập cuộc sống hàng ngày."
+    },
+    "ritualChecklist": [
+      {
+        "id": "ram_thang_lau_ban",
+        "text": "Lau dọn ban thờ, thay nước, chỉnh lại bát hương ngay ngắn.",
+        "offsetFromServeMin": -15
+      },
+      {
+        "id": "ram_thang_bay_le",
+        "text": "Bày hoa tươi, đĩa quả, trầu cau, oản/xôi chè (hoặc mâm cơm nhỏ nếu làm mặn).",
+        "offsetFromServeMin": -10
+      },
+      {
+        "id": "ram_thang_thap_huong",
+        "text": "Thắp hương số lẻ (thường 1 hoặc 3 nén) và đèn.",
+        "offsetFromServeMin": -5
+      },
+      {
+        "id": "ram_thang_khan",
+        "text": "Khấn cầu bình an cho gia đạo, mời gia tiên và thần linh chứng giám.",
+        "offsetFromServeMin": -3
+      },
+      {
+        "id": "ram_thang_cho_huong",
+        "text": "Chờ hương cháy gần hết.",
+        "offsetFromServeMin": 25
+      },
+      {
+        "id": "ram_thang_ha_le",
+        "text": "Hạ lễ, thụ lộc.",
+        "offsetFromServeMin": 30
+      }
+    ],
+    "khanTemplate": "Nam mô A Di Đà Phật (3 lần).\nCon kính lạy chín phương Trời, mười phương Chư Phật, Chư Phật mười phương.\nCon kính lạy Hoàng Thiên Hậu Thổ, chư vị Tôn thần.\nCon kính lạy ngài Bản gia Táo quân, Thổ địa, Thần Tài.\nCon kính lạy chư vị Tổ tiên nội ngoại.\nHôm nay là ngày {{ngay_am}} tháng {{thang_am}} năm {{nam_am}} (ngày {{mung_1_hay_ram}}).\nTín chủ con là {{ten_chu_le}}, ngụ tại {{dia_chi}}.\nChúng con thành tâm dâng hương hoa lễ vật, cúi xin chư vị Tôn thần và gia tiên chứng giám lòng thành, phù hộ cho gia đình mạnh khỏe, bình an, công việc hanh thông.\nChúng con lễ bạc tâm thành, cúi xin chứng giám.\nNam mô A Di Đà Phật (3 lần).",
+    "description": "Lễ cúng mùng 1 và ngày rằm hàng tháng, giản dị, thường nhật. Mặc định một mâm gia đình, nhiều nhà chỉ cúng chay hương hoa."
+  }
+]
